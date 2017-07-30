@@ -1,0 +1,51 @@
+#####596. Classes More Than 5 Students
+select class
+from courses
+group by class
+having count(distinct student)>=5;
+
+
+#####196. Delete Duplicate Emails
+delete P2
+from Person as P1, Person as P2
+where P1.Email = P2.Email and P1.Id < P2.Id;
+
+
+#####176. Second Highest Salary
+select max(Salary) as SecondhighestSalary
+from Employee
+where Salary < (select max(Salary) from Employee);
+
+
+#####178. Rank Scores
+SELECT S1.Score,
+        (select count(distinct Score) from Scores where Score >= S1.Score) as Rank
+from Scores as S1
+order by Score desc;
+
+
+#####180. Consecutive Numbers
+select distinct(l1.Num) as ConsecutiveNums
+from Logs as l1, Logs as l2, Logs as l3
+where l1.Num = l2.Num and l2.Num = l3.Num
+        and l1.Id = l2.Id-1 and l2.Id = l3.Id-1;
+
+
+#####184. Department Highest Salary
+SELECT dep.Name as Department, emp.Name as Employee, emp.Salary
+from Department dep, Employee emp
+where emp.DepartmentId=dep.Id
+and emp.Salary=(Select max(Salary) from Employee e2 where e2.DepartmentId=dep.Id)
+
+
+#####177. Nth Highest Salary
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+    set N=N-1;
+  RETURN (
+      # Write your MySQL query statement below.
+       select distinct Salary
+       from Employee
+       order by Salary desc limit N, 1
+  );
+END
