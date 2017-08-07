@@ -22,8 +22,8 @@ public class P1_TreeDFS_PreOrder {
         LinkedList<TreeNode> stack = new LinkedList<>();
         while (root != null || !stack.isEmpty()) {
             if (root != null) {
-                stack.push(root);
                 System.out.print(root.val + "  ");
+                stack.push(root);
                 root = root.left;
             } else { //root == null && !stack.isEmpty()
                 TreeNode node = stack.pop();

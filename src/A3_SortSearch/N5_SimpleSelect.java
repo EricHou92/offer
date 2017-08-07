@@ -3,7 +3,7 @@ package A3_SortSearch;
 /**
  * Created by ciciya on 2017/3/28.
  */
-public class N4_SimpleSelect {
+public class N5_SimpleSelect {
 
     public void selectSort(int[] numbers) {
         for(int i=0; i<numbers.length; i++) {
