@@ -5,10 +5,10 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  */
 public class N2_2_MaxProductSub {
 
+    //最大连续子集的乘积
     public int maxProduct(int[] A) {
-        if (A == null || A.length == 0) {
+        if (A == null || A.length == 0)
             return 0;
-        }
         int max = A[0], min = A[0], result = A[0];
         for (int i = 1; i < A.length; i++) {
             int temp = max;

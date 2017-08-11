@@ -8,12 +8,6 @@ import java.util.Map;
  */
 public class N6_ConSubSum {
 
-    public static void main(String[] args){
-        int[] numbers = {23, 2, 4, 6, 7};
-        int k = 6;
-        System.out.println(new N6_ConSubSum().checkSubarraySum(numbers, k));
-    }
-
     public boolean checkSubarraySum(int[] nums, int k) {
         //用HashMap保存sum对k取余数，如果前序有余数也为sum % k的位置，那么就存在连续子数组和为k的倍数
         Map<Integer, Integer> map = new HashMap<>();

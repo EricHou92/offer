@@ -1,4 +1,4 @@
-package A2_Leetcode.T3_DynamicProgramming.package3;
+package A2_Leetcode.T3_DynamicProgramming.package2;
 
 import java.util.Arrays;
 
