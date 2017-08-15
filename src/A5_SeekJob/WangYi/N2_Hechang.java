@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by ciciya on 2017/8/11.
  */
-public class N2_合唱团 {
+public class N2_Hechang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {

@@ -9,22 +9,22 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
 public class N13_GuessHighLow2 {
 
     public int getMoneyAmount(int n) {
-        int[][] table = new int[n+1][n+1];
-        return DP(table, 1, n);
+        int[][] dp = new int[n+1][n+1];
+        return helper(dp, 1, n);
     }
 
-    private int DP(int[][] table, int start, int end){
-        if(start >= end)
+    private int helper(int[][] dp, int low, int high){
+        if(low >= high)
             return 0;
-        if(table[start][end] != 0)
-            return table[start][end];
+        if(dp[low][high] != 0)
+            return dp[low][high];
         int result = Integer.MAX_VALUE;
-        for(int i=start; i<=end; i++){
+        for(int i=low; i<=high; i++){
             //calculate the amount to pay if pick x.
-            int pay = i + Math.max(DP(table, start, i-1), DP(table, i+1, end));
+            int pay = i + Math.max(helper(dp, low, i-1), helper(dp, i+1, high));
             result = Math.min(result, pay);
         }
-        table[start][end] = result;
+        dp[low][high] = result;
         return result;
     }
 }

@@ -5,6 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package2;
  */
 public class N23_WiggleSub {
 
+    //摆动序列的最长子序列的长度
     public int wiggleMaxLength(int[] nums) {
         if( nums.length == 0 )
             return 0;

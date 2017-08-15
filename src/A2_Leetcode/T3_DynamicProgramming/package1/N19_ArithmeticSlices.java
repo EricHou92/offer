@@ -5,6 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
  */
 public class N19_ArithmeticSlices {
 
+    //等差数列的个数
     public int numberOfArithmeticSlices(int[] A) {
         int count = 0;
         int sum = 0;

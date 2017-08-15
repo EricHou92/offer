@@ -7,39 +7,26 @@ import java.util.Arrays;
  */
 public class N9_OneandZero {
 
+    //m个1和n个0最多能完整组成字符串数组里的几个字符串。
     public int findMaxForm(String[] strs, int m, int n) {
-        int[][][] dp = new int[strs.length+1][m+1][n+1];
-        for (int i = 0; i < strs.length+1; i++) {
-            int[] nums = {0,0};
-            if (i > 0) {
-                nums = calculate(strs[i-1]);
-            }
-            for (int j = 0; j < m+1; j++) {
-                for (int k = 0; k < n+1; k++) {
-                    if (i == 0) {
-                        dp[i][j][k] = 0;
-                    } else if (j>=nums[0] && k>=nums[1]) {
-                        dp[i][j][k] = Math.max(dp[i-1][j][k], dp[i-1][j-nums[0]][k-nums[1]]+1);
-                    } else {
-                        dp[i][j][k] = dp[i-1][j][k];
-                    }
+        int[][] dp = new int[m+1][n+1];
+        for (String s : strs) {
+            int[] count = count(s);
+            for (int i=m; i>=count[0]; i--) {
+                for (int j = n; j >= count[1]; j--) {
+                    //dp表示以当前的能用的0和1 的组合，能获得的最大情况
+                    dp[i][j] = Math.max(1 + dp[i - count[0]][j - count[1]], dp[i][j]);
                 }
             }
         }
-        return dp[strs.length][m][n];
+        return dp[m][n];
     }
 
-    //计算每个字符串0和1的个数
-    private int[] calculate(String str) {
+    //统计0和1的数量
+    public int[] count(String str) {
         int[] res = new int[2];
-        Arrays.fill(res, 0);
-        for (char ch : str.toCharArray()) {
-            if (ch == '0') {
-                res[0]++;
-            } else if (ch == '1') {
-                res[1]++;
-            }
-        }
+        for (int i=0;i<str.length();i++)
+            res[str.charAt(i) - '0']++;
         return res;
     }
 }

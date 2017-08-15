@@ -2,30 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dde5a3-ebd3-4a01-9b41-5d1d84177aba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N1_洗牌.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N2_合唱团.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A1_JianzhiOffer/T1_Array/N27_MaxSub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N1_RangeSum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A3_SortSearch/N3_SimpleInsert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A3_SortSearch/N4_SimpleSelect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A3_SortSearch/N5_BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_RangeSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package3/N38_HouseRobberII.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/A5_SeekJob/Xiaohongshu/N1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/A5_SeekJob/Xiaohongshu/N2.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_MaxSub.java" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package3/N31_RangeSum2D.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N31_RangeSum2D.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package3/N32_LongestIncreasSub.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_LongestIncreasSub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package3/N33_PerfectSquare.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N33_PerfectSquare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package3/N37_MaximalSquare.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N37_MaximalSquare.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N12_BST2$TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N12_BST2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N13_BST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package3/N31_RangeSum2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package3/N32_LongestIncreasSub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package3/N33_PerfectSquare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package3/N37_MaximalSquare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package3/N38_HouseRobberII.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSumToK.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_BST2.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_2_BST2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N13_BST.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_1_BST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N1_洗牌.java" afterPath="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N1_Xipai.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N2_合唱团.java" afterPath="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N2_Hechang.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/Pack01.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/Pack01.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N10_UniqueSub.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N10_UniqueSub.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N2_2_MaxProductSub.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N2_2_MaxProductSub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_1_HouseRob.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_1_HouseRob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_2_HouseRobII.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_2_HouseRobII.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII$TreeNode.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII$TreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N4_BuySellStock.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N4_BuySellStock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N8_PredictWinner.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N8_PredictWinner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N9_OneandZero.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package0/N9_OneandZero.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N11_DecodeWays.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N11_DecodeWays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N13_GuessHighLow2.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N13_GuessHighLow2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N15_Triangle.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N15_Triangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N16_UniquePath.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N16_UniquePath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N17_UniquePath2.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N17_UniquePath2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N19_ArithmeticSlices.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package1/N19_ArithmeticSlices.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package2/N23_WiggleSub.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package2/N23_WiggleSub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package2/N29_LargeDivSub.class" afterPath="$PROJECT_DIR$/out/production/offer/A2_Leetcode/T3_DynamicProgramming/package2/N29_LargeDivSub.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N2_2_MaxProductSub.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N2_2_MaxProductSub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_1_HouseRob.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_1_HouseRob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_2_HouseRobII.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_2_HouseRobII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_BuySellStock.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_BuySellStock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/Pack01.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/Pack01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N10_UniqueSub.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N10_UniqueSub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N8_PredictWinner.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N8_PredictWinner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N9_OneandZero.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N9_OneandZero.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N11_DecodeWays.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N11_DecodeWays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N13_GuessHighLow2.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N13_GuessHighLow2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N15_Triangle.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N15_Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N16_UniquePath.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N16_UniquePath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N17_UniquePath2.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N17_UniquePath2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N19_ArithmeticSlices.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N19_ArithmeticSlices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N20_WordBreak.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N20_WordBreak.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N23_WiggleSub.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N23_WiggleSub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N29_LargeDivSub.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N29_LargeDivSub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N9_Sqrt.java" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N9_Sqrt.java" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,21 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="N3_1_HouseRob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_1_HouseRob.java">
+      <file leaf-file-name="N2_1_PlusOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N2_1_PlusOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="N6_ConSubSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="223">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -108,25 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N21_PathSumII.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N35_3_IsBalanced.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N58_GetSerialize.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N59_GetKthNode.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N54_GetNext.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N54_GetNextInOrder.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T5_StackQueue/N18_IsPopOrder.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N9_Power.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N43_Add.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N62_hasPath.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N63_movingCount.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T5_StackQueue/N5_2_StackByOneQueue.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N16_SpiralMatrix.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N26_KMin.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N8_NumberOfBit1.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N28_NumberOf1.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N32_InversePairs.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N34_TimesOfK.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N36_AppearOnce.java" />
         <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N37_2_ContinuousSequence.java" />
         <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N40_isPokerContinuous.java" />
         <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N47_duplicate.java" />
@@ -148,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N24_Permutation.java" />
         <option value="$PROJECT_DIR$/src/A3_SortSearch/N3_HeapSort.java" />
         <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConMaxSub.java" />
-        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java" />
         <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_RangeSum.java" />
         <option value="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N1_XiPai.java" />
         <option value="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N2_合唱团.java" />
@@ -159,6 +154,26 @@
         <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_1_HouseRob.java" />
         <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_BuySellStock.java" />
         <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N8_PredictWinner.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N9_OneandZero.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N10_UniqueSub.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N11_DecodeWays.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_BST.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_1_BST.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/Pack01.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N13_GuessHighLow2.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N15_Triangle.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N17_UniquePath2.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N16_UniquePath.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N19_ArithmeticSlices.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N20_WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N23_WiggleSub.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N29_LargeDivSub.java" />
+        <option value="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N3_test1.java" />
+        <option value="$PROJECT_DIR$/src/A5_SeekJob/WangYi/N4_test2.java" />
+        <option value="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java" />
+        <option value="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N9_Sqrt.java" />
       </list>
     </option>
   </component>
@@ -209,7 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,46 +272,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="A5_SeekJob" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangYi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A5_SeekJob" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="A2_Leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -318,40 +294,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="T3_DynamicProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A2_Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="T3_DynamicProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package0" />
+              <option name="myItemId" value="T9_Math" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,11 +341,11 @@
       <recent name="leetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A5_SeekJob.WangYi" />
       <recent name="A5_SeekJob.Xiaohongshu" />
       <recent name="leetcode.T13_LinkedList" />
       <recent name="leetcode.T11_String" />
       <recent name="leetcode.T10_Array" />
-      <recent name="leetcode.T8_HashTable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ciciya\IdeaProjects\offer\src\encrypt" />
@@ -405,27 +354,7 @@
       <recent name="C:\Users\ciciya\IdeaProjects\untitled\src\test1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.N2_合唱团">
-    <configuration default="false" name="M1_MaxScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="A5_SeekJob.HuaWei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="A5_SeekJob.HuaWei.M1_MaxScore" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="offer" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.N3_test1">
     <configuration default="false" name="N13_RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -466,14 +395,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="N1_洗牌" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="N1_Xipai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="A5_SeekJob.WangYi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="A5_SeekJob.WangYi.N1_洗牌" />
+      <option name="MAIN_CLASS_NAME" value="A5_SeekJob.WangYi.N1_Xipai" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -486,14 +415,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="N2_合唱团" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="N2_Hechang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="A5_SeekJob.WangYi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="A5_SeekJob.WangYi.N2_合唱团" />
+      <option name="MAIN_CLASS_NAME" value="A5_SeekJob.WangYi.N2_Hechang" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="offer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="N3_test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="A5_SeekJob.WangYi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="A5_SeekJob.WangYi.N3_test1" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -966,19 +915,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.M1_MaxScore" />
-      <item index="1" class="java.lang.String" itemvalue="Application.N13_RotateImage" />
-      <item index="2" class="java.lang.String" itemvalue="Application.N2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.N1_洗牌" />
-      <item index="4" class="java.lang.String" itemvalue="Application.N2_合唱团" />
+      <item index="0" class="java.lang.String" itemvalue="Application.N13_RotateImage" />
+      <item index="1" class="java.lang.String" itemvalue="Application.N2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.N1_Xipai" />
+      <item index="3" class="java.lang.String" itemvalue="Application.N2_Hechang" />
+      <item index="4" class="java.lang.String" itemvalue="Application.N3_test1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.N2_合唱团" />
-        <item index="1" class="java.lang.String" itemvalue="Application.N1_洗牌" />
-        <item index="2" class="java.lang.String" itemvalue="Application.N2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.N13_RotateImage" />
-        <item index="4" class="java.lang.String" itemvalue="Application.M1_MaxScore" />
+        <item index="0" class="java.lang.String" itemvalue="Application.N3_test1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.N2_Hechang" />
+        <item index="2" class="java.lang.String" itemvalue="Application.N1_Xipai" />
+        <item index="3" class="java.lang.String" itemvalue="Application.N2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.N13_RotateImage" />
       </list>
     </recent_temporary>
   </component>
@@ -1161,7 +1110,10 @@
       <workItem from="1502156758976" duration="5650000" />
       <workItem from="1502240465615" duration="9733000" />
       <workItem from="1502353247656" duration="3382000" />
-      <workItem from="1502455273576" duration="10287000" />
+      <workItem from="1502455273576" duration="20790000" />
+      <workItem from="1502520046137" duration="7788000" />
+      <workItem from="1502673135119" duration="11613000" />
+      <workItem from="1502785599866" duration="6263000" />
     </task>
     <task id="LOCAL-00001" summary="add HeapSort">
       <created>1502097357049</created>
@@ -1170,11 +1122,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502097357049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix some problems">
+      <created>1502469467677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502469467677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1591777000" />
+    <option name="totallyTimeSpent" value="1627944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1192,7 +1151,6 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
@@ -1202,17 +1160,18 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24432677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20502512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35042736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34931508" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1278,11 +1237,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add HeapSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HeapSort" />
+    <MESSAGE value="fix some problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="46" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1291,362 +1251,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/Xiaohongshu/N3.java" />
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N29_MinNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N45_StrToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N62_hasPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N10_reOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N15_DuplicateNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N53_DeleteDuplicatesII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N47_duplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/M1_BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/N1_MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N3_TailToHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N13_Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N33_Intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/N6_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/P4_TreeBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/P1_TreeDFS_PreOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N1_SearchMatrixII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N24_Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/N2_QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N2_ReplaceBlank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/offer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N35_2_MinDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A3_SortSearch/N3_HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N6_SubSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/Xiaohongshu/N1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_RangeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/WangYi/N1_洗牌.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/WangYi/N2_合唱团.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/QuNa/N1_SameString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/QuNa/N2_NextSymmetry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/QuNa/N6_CountChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/JingDong/N8_Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N31_RangeSum2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N37_MaximalSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N33_PerfectSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_LongestIncreasSub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N38_HouseRobberII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_2_HouseRobII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N3_3_HouseRobIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_BuySellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N5_BuySellStockCooldown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N2_2_MaxProductSub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N8_PredictWinner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N9_OneandZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N10_UniqueSub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="228">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N11_DecodeWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1654,14 +1290,323 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_2_BST2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_1_BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/Pack01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N14_CanIWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N13_GuessHighLow2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N15_Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N7_MinPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N17_UniquePath2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N16_UniquePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N18_EqualSubSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N20_WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N25_UniqueDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N19_ArithmeticSlices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N27_CountBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N28_CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N37_MaximalSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N29_LargeDivSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-271">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N31_RangeSum2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N33_PerfectSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_LongestIncreasSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N7_NonIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/MaxInnerRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N24_Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_3_Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_5_PermutationSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_4_PermutationsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="5" selection-start-line="11" selection-start-column="2" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/WangYi/N2_Hechang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N8_2_MergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N26_IntegerBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_11/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="892" column="0" selection-start-line="892" selection-start-column="0" selection-end-line="892" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/WangYi/N1_Xipai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N63_movingCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N62_hasPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/WangYi/N4_test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A5_SeekJob/WangYi/N3_test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N23_WiggleSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N22_CombSumIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N29_MinNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N24_IsSubseq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="338" column="30" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="294" column="33" selection-start-line="294" selection-start-column="33" selection-end-line="294" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N9_Sqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N6_ConSubSum.java">
+    <entry file="file://$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="247">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N2_1_PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>

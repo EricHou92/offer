@@ -4,6 +4,8 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  * Created by ciciya on 2017/3/23.
  */
 public class N7_MinPathSum {
+
+    //每次向下，向右一步，求最小路径和
     public int minPathSum(int[][] grid){
         int m = grid.length;
         int n = grid[0].length;

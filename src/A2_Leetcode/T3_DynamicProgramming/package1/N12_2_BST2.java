@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ciciya on 2017/3/26.
  */
-public class N12_BST2 {
+public class N12_2_BST2 {
 
     public List<TreeNode> generateTrees(int n){
         return genTrees(1, n);

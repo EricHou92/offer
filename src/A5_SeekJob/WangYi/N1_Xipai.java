@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by ciciya on 2017/8/11.
  */
-public class N1_洗牌 {
+public class N1_Xipai {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

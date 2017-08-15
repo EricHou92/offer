@@ -5,21 +5,6 @@ package A2_Leetcode.T3_DynamicProgramming;
  */
 public class Pack01 {
 
-    public static void main(String[] args) {
-        int m = 10;
-        int n = 3;
-        int w[] = {3, 4, 5};
-        int p[] = {4, 5, 6};
-        int c[][] = BackPack_Solution(m, n, w, p);
-        for (int i = 1; i <=n; i++) {
-            for (int j = 1; j <=m; j++) {
-                System.out.print(c[i][j]+"\t");
-                if(j==m)
-                    System.out.println();
-            }
-        }
-    }
-
     /**
      * @param m 表示背包的最大容量
      * @param n 表示商品个数

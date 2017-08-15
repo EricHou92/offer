@@ -5,18 +5,18 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  */
 public class N8_PredictWinner {
 
+    //两端循环取值，求和最大一方,保存中间状态
     public boolean PredictTheWinner(int[] nums) {
-        int n = nums.length;
-        int[][] dp = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            dp[i][i] = nums[i];
+        return helper(nums, 0, nums.length-1, new Integer[nums.length][nums.length]) >= 0;
+    }
+
+    public int helper(int[] nums, int start, int end, Integer[][] dp) {
+        if(dp[start][end] == null) {
+            if(start == end)
+                return nums[start];
+            else
+                return Math.max(nums[start]-helper(nums, start+1,end, dp), nums[end]-helper(nums, start,end-1, dp));
         }
-        for (int len = 1; len < n; len++) {
-            for (int i = 0; i < n-len; i++) {
-                int j = i + len;
-                dp[i][j] = Math.max(nums[i] - dp[i + 1][j], nums[j] - dp[i][j - 1]);
-            }
-        }
-        return dp[0][n - 1] >= 0;
+        return dp[start][end];
     }
 }

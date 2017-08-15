@@ -9,12 +9,7 @@ import java.util.List;
  */
 public class N29_LargeDivSub {
 
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 8};
-       System.out.println(largestDivisibleSubset(nums));
-    }
-
-    public static List<Integer> largestDivisibleSubset(int[] nums) {
+    public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> res = new ArrayList<>();
         if (nums == null || nums.length == 0)
             return res;
