@@ -7,8 +7,9 @@ import java.util.Arrays;
  */
 public class N5_MinBurstBalloons {
 
+    //最小数量的箭头来爆破所有气球,沿x轴
     public int findMinArrowShots(int[][] points) {
-        if(points==null || points.length==0)
+        if(points==null || points.length == 0)
             return 0;
         //优先按照起点位置排序，然后按照结束位置排序
         Arrays.sort(points, ( x , y) -> x[0] == y[0] ? x[1]-y[1] : x[0]-y[0]);
@@ -18,8 +19,7 @@ public class N5_MinBurstBalloons {
         for(int i=1; i<points.length; i++) {
             if(points[i][0] <= arrowLimit) {
                 arrowLimit = Math.min(arrowLimit, points[i][1]);
-            }
-            else {
+            } else {
                 count++;
                 arrowLimit = points[i][1];
             }

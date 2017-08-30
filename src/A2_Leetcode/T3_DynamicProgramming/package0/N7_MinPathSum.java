@@ -5,7 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  */
 public class N7_MinPathSum {
 
-    //每次向下，向右一步，求最小路径和
+    //给定一个充满非负数的网格，找到一个从左上到右下的路径，最小化沿其路径的所有数字的总和。
     public int minPathSum(int[][] grid){
         int m = grid.length;
         int n = grid[0].length;

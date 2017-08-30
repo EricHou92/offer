@@ -1,4 +1,4 @@
-package A5_SeekJob.WangYi;
+package A5_SeekJob.QuNa;
 
 import java.util.Scanner;
 

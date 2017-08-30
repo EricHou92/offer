@@ -17,8 +17,6 @@ public class N4_GasStation {
                 sum = 0;
             }
         }
-        //If the total number of gas is bigger than the total number of cost.
-        //There must be a solution.
         if (total < 0)
             return -1;    //所有加油站的油量都不够整个路程的消耗
         else

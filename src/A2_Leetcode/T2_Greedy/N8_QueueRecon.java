@@ -9,10 +9,8 @@ import java.util.List;
  */
 public class N8_QueueRecon {
 
+    // 每个人由一对整数（h，k）描述，其中h是人的高度，k是具有高度大于或等于h的这个人面前的人数。
     public int[][] reconstructQueue(int[][] people) {
-        //pick up the tallest guy first
-        //when insert the next tall guy, just need to insert him into kth position
-        //repeat until all people are inserted into list
         Arrays.sort(people, (p1, p2) -> p1[0]!= p2[0] ? -p1[0]+ p2[0] : p1[1]- p2[1]);
         List<int[]> res = new LinkedList<>();
         for(int[] cur : people){

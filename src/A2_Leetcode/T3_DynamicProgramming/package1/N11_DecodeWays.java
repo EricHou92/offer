@@ -5,7 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
  */
 public class N11_DecodeWays {
 
-    //编码方式的总数
+    //给定字符串，确定解码方式的总数
     public int numDecodings(String s){
         if(s.length() == 0)
             return 0;

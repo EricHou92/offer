@@ -5,7 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  */
 public class N3_2_HouseRobII {
 
-    //围成一个圈
+    //房子围成一个圈，不抢相邻房子
     public int rob(int[] nums) {
         if (nums.length == 1)
             return nums[0];

@@ -8,29 +8,30 @@ import java.util.List;
  */
 public class N12_2_BST2 {
 
+    //给定n，存储值1 到 n的所有二分搜索树
     public List<TreeNode> generateTrees(int n){
         return genTrees(1, n);
     }
 
-    private List<TreeNode> genTrees(int start, int end) {
+    private List<TreeNode> genTrees(int low, int high) {
         List<TreeNode> list = new ArrayList<>();
-        if(start>end){
+        if(low > high){
             list.add(null);
             return list;
-        }
-        if(start==end){
-            list.add(new TreeNode(start));
+        }else if(low == high){
+            list.add(new TreeNode(low));
             return list;
-        }
-        for(int i=start; i<=end; i++){
-            List<TreeNode> left = genTrees(start, i-1);
-            List<TreeNode> right = genTrees(i + 1, end);
-            for(TreeNode lnode: left){
-                for(TreeNode rnode: right){
-                    TreeNode root = new TreeNode(i);
-                    root.left = lnode;
-                    root.right = rnode;
-                    list.add(root);
+        }else {
+            for(int i=low; i<=high; i++){
+                List<TreeNode> left = genTrees(low, i-1);
+                List<TreeNode> right = genTrees(i+1, high);
+                for(TreeNode lnode: left){
+                    for(TreeNode rnode: right){
+                        TreeNode root = new TreeNode(i);
+                        root.left = lnode;
+                        root.right = rnode;
+                        list.add(root);
+                    }
                 }
             }
         }
@@ -42,8 +43,10 @@ public class N12_2_BST2 {
         TreeNode left;
         TreeNode right;
         TreeNode(int x) {
-            val = x; }
+            val = x;
+        }
     }
+
 }
 
 

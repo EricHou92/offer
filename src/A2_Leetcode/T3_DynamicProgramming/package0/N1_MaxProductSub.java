@@ -3,7 +3,7 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
 /**
  * Created by ciciya on 2017/3/30.
  */
-public class N2_2_MaxProductSub {
+public class N1_MaxProductSub {
 
     //最大连续子集的乘积
     public int maxProduct(int[] A) {

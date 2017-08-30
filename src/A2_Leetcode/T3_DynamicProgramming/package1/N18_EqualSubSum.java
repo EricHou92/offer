@@ -7,6 +7,7 @@ import java.util.Arrays;
  */
 public class N18_EqualSubSum {
 
+    //给定一个只包含正整数的非空数组，返回数组是否可以划分成元素和相等的两个子集
     public boolean canPartition(int[] nums) {
         int sum = 0;
         for (int num : nums) {

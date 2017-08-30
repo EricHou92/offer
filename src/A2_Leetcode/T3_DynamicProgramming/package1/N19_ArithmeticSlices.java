@@ -5,12 +5,12 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
  */
 public class N19_ArithmeticSlices {
 
-    //等差数列的个数
-    public int numberOfArithmeticSlices(int[] A) {
+    //返回数组nums中的等差数列的个数
+    public int numberOfArithmeticSlices(int[] nums) {
         int count = 0;
         int sum = 0;
-        for (int i=2; i<A.length; i++)
-            if (A[i]-A[i-1] == A[i-1]-A[i-2]) {
+        for (int i=2; i<nums.length; i++)
+            if (nums[i]-nums[i-1] == nums[i-1]-nums[i-2]) {
                 count ++;
                 sum += count;
             } else {

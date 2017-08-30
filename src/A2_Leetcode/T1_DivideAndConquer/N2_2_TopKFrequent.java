@@ -10,9 +10,7 @@ import java.util.Map;
  */
 public class N2_2_TopKFrequent {
 
-   /* hash，得到<元素，频次>键值对
-    因为频次小于n，建散列表，即新建大小为n+1的数组，数组下标为频次，数组内容为有相同频次的键值list，
-    对散列表按下标由大到小遍历，找出k个键值*/
+    //前K个高频元素
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         for(int n : nums){

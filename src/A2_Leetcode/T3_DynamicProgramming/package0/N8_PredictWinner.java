@@ -7,16 +7,16 @@ public class N8_PredictWinner {
 
     //两端循环取值，求和最大一方,保存中间状态
     public boolean PredictTheWinner(int[] nums) {
-        return helper(nums, 0, nums.length-1, new Integer[nums.length][nums.length]) >= 0;
+        return helper(nums, 0, nums.length-1, new int[nums.length][nums.length]) >= 0;
     }
 
-    public int helper(int[] nums, int start, int end, Integer[][] dp) {
-        if(dp[start][end] == null) {
-            if(start == end)
-                return nums[start];
+    public int helper(int[] nums, int low, int high, int[][] dp) {
+        if(dp[low][high] == 0) {
+            if(low == high)
+                return nums[low];
             else
-                return Math.max(nums[start]-helper(nums, start+1,end, dp), nums[end]-helper(nums, start,end-1, dp));
+                return Math.max(nums[low]-helper(nums, low+1, high, dp), nums[high]-helper(nums, low, high-1, dp));
         }
-        return dp[start][end];
+        return dp[low][high];
     }
 }

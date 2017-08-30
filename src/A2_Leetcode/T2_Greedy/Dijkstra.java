@@ -1,19 +1,17 @@
 package A2_Leetcode.T2_Greedy;
 
-/*单源最短路径（ Dijkstra算法）
+/*单源点最短路径（ Dijkstra算法）
 贪心算法*/
 
 public class Dijkstra {
     static int M=10000;//(此路不通)
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         int[][] weight2 = {//邻接矩阵
                 {0,10,M,30,100},
                 {M,0,50,M,M},
                 {M,M,0,M,10},
                 {M,M,20,0,60},
-                {M,M,M,M,0}
-        };
+                {M,M,M,M,0}};
         int start=0;
         int[] shortPath = Dijsktra(weight2,start);
         for(int i = 0;i < shortPath.length;i++)

@@ -3,8 +3,9 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
 /**
  * Created by ciciya on 2017/3/23.
  */
-public class N4_BuySellStock {
+public class N4_1_BuySellStock {
 
+    //最多一次交易, 找到最大利润。
     public int maxProfit(int[] prices) {
         if(prices.length == 0)
             return 0;

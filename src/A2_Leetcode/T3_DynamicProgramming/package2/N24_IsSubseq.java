@@ -5,18 +5,19 @@ package A2_Leetcode.T3_DynamicProgramming.package2;
  */
 public class N24_IsSubseq {
 
-    public boolean isSubsequence(String s, String t) {
-        if (s.length() == 0)
+    //给定一个字符串s1和一个字符串s2，检查s1是否是s2的子序列，不连续
+    public boolean isSubsequence(String s1, String s2) {
+        if (s1.length() == 0)
             return true;
-        int indexS = 0;
-        int indexT = 0;
-        while (indexT < t.length()) {
-            if (t.charAt(indexT) == s.charAt(indexS)) {
-                indexS++;
-                if (indexS == s.length())
+        int i = 0;
+        int j = 0;
+        while (i < s2.length()) {
+            if (s2.charAt(i) == s1.charAt(j)) {
+                j++;
+                if (j == s1.length())
                     return true;
             }
-            indexT++;
+            i++;
         }
         return false;
     }

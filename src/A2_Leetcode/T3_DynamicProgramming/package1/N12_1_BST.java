@@ -5,6 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
  */
 public class N12_1_BST {
 
+    //给定n，存储值1 到 n的二分搜索树的数目
     public int numTrees(int n) {
         if(n==0)
             return 1;
@@ -12,9 +13,7 @@ public class N12_1_BST {
         dp[0] = 1;
         for(int i=1; i<=n; i++){
             for(int j=0; j<i; j++){
-                //以这个结点为根的可行二叉树数量就是左右子树可行二叉树数量的乘积，
-                //所以总的数量是将以所有结点为根的可行结果累加起来
-                dp[i] += dp[j]*dp[i-1-j];
+                dp[i] += dp[j]*dp[i-1-j];   //当前数量 = 左右子树可行二叉树数量的乘积
             }
         }
         return dp[n];

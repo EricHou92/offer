@@ -5,6 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package2;
  */
 public class N25_UniqueDigits {
 
+    //给定一个非负整数n，计算所有各位不含重复数字的整数，其中0≤x<10的n次方。
     public int countNumbersWithUniqueDigits(int n){
         if(n==0)
             return 1;

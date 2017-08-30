@@ -5,6 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
  */
 public class N17_UniquePath2 {
 
+    //障碍物和空格分别在网格中标记为1和0,有多少种可能的路径
     public int uniquePathsWithObstacles(int[][] map) {
         if(map.length == 0)
             return 0;

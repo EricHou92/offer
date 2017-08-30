@@ -5,6 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  */
 public class N3_3_HouseRobIII {
 
+    // 如果两个直连房屋不能被连续打破
     public int rob(TreeNode root) {
         int[] res = robSub(root);
         return Math.max(res[0], res[1]);
@@ -21,7 +22,7 @@ public class N3_3_HouseRobIII {
         return res;
     }
 
-    public class TreeNode {
+    class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

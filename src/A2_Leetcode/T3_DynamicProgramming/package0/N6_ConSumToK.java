@@ -8,22 +8,23 @@ import java.util.Map;
  */
 public class N6_ConSumToK {
 
+    //连续子序列，其总和到n * k
     public boolean checkSubarraySum(int[] nums, int k) {
         //用HashMap保存sum对k取余数，如果前序有余数也为sum % k的位置，那么就存在连续子数组和为k的倍数
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(0, -1); //处理k为0的情况
-        int runningSum = 0;
+        map.put(0, -1);
+        int sum = 0;
         for(int i=0; i<nums.length; i++) {
-            runningSum += nums[i];
+            sum += nums[i];
             if (k != 0)
-                runningSum %= k;
-            Integer prev = map.get(runningSum);
-            if (prev != null) {
-                if (i - prev > 1)
+                sum %= k;
+            Integer pre = map.get(sum);
+            if (pre != null) {
+                if (i - pre > 1)
                     return true;
+            } else {
+                map.put(sum, i);
             }
-            else
-                map.put(runningSum, i);
         }
         return false;
     }

@@ -5,18 +5,19 @@ package A2_Leetcode.T1_DivideAndConquer;
  */
 public class N1_MajorityElement {
 
+    //找到数组中的最多数元素
     public int majorityElement(int[] num) {
-        int major=num[0];
+        int result = num[0];
         int count = 1;
         for(int i=1; i<num.length; i++){
-            if(count==0){
+            if(count == 0){
                 count++;
-                major=num[i];
-            }else if(major==num[i]){
+                result = num[i];
+            }else if(result == num[i]){
                 count++;
             }else
                 count--;
         }
-        return major;
+        return result;
     }
 }

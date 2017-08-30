@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class N3_AddParentheses {
 
+    //给定一个含有数字和运算符的字符串，返回所有不同的可能结果，有效的运算符是+， - 和*
     public List<Integer> diffWaysToCompute(String input) {
         List<Integer> result = new LinkedList<>();
         for (int i=0; i<input.length(); i++) {

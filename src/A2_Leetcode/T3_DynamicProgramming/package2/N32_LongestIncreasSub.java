@@ -1,30 +1,50 @@
 package A2_Leetcode.T3_DynamicProgramming.package2;
 
+import java.util.Arrays;
+
 /**
  * Created by ciciya on 2017/3/31.
  */
 public class N32_LongestIncreasSub {
 
+    //给定一个未排序的整数数组，返回最长递增子序列的长度
+    // O(nlogn),end是不断增大的数组
     public int lengthOfLIS(int[] nums) {
-        if(nums.length == 0){
-            return 0;
+        int[] end = new int[nums.length];
+        int result = 0;
+        for (int num : nums) {
+            int low = 0;
+            int high = result;
+            while (low != high) {
+                int mid = (low + high) / 2;
+                if (end[mid] < num)
+                    low = mid + 1;
+                else
+                    high = mid;
+            }
+            end[low] = num;
+            if (low == result)
+                result++;
         }
-        //dp[i]代表加入第i个数能构成的最长升序序列长度
+        return result;
+    }
+
+
+    //O(n2)
+    public int getLIS2(int[] nums) {
+        if (nums == null || nums.length == 0)
+            return 0;
+        int result = 1;
         int[] dp = new int[nums.length];
-        int max = 0;
-        for (int i=0; i<nums.length; i++){
-            int localMax = 0;
-            // 找出当前点之前的最大上升序列长度
-            for (int j=0; j<i; j++){
-                if (dp[j]>localMax && nums[j]<nums[i]){
-                    localMax = dp[j];
+        for (int i = 0; i < nums.length; i++) {
+            dp[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (nums[j] < nums[i]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                    result = Math.max(dp[i], result);
                 }
             }
-            // 当前点则是该局部最大上升长度加1
-            dp[i] = localMax + 1;
-            // 用当前点的长度更新全局最大长度
-            max = Math.max(max, dp[i]);
         }
-        return max;
+        return result;
     }
 }

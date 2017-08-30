@@ -10,10 +10,10 @@ public class N9_OneandZero {
     //m个1和n个0最多能完整组成字符串数组里的几个字符串。
     public int findMaxForm(String[] strs, int m, int n) {
         int[][] dp = new int[m+1][n+1];
-        for (String s : strs) {
-            int[] count = count(s);
+        for (String str : strs) {
+            int[] count = count(str);
             for (int i=m; i>=count[0]; i--) {
-                for (int j = n; j >= count[1]; j--) {
+                for (int j=n; j >= count[1]; j--) {
                     //dp表示以当前的能用的0和1 的组合，能获得的最大情况
                     dp[i][j] = Math.max(1 + dp[i - count[0]][j - count[1]], dp[i][j]);
                 }

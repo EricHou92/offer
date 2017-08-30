@@ -7,6 +7,7 @@ import java.util.Arrays;
  */
 public class N33_PerfectSquare {
 
+    //给定一个正整数n，找到总和为n的最小数量的完美平方数
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);
