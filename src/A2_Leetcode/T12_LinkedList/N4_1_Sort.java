@@ -5,6 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N4_1_Sort {
 
+    //对链表进行排序,时间O(nlogn)，空间O(n)
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null)
             return head;

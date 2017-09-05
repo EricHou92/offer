@@ -5,6 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N3_1_ReverseII {
 
+    //将链表从位置m到n反转，在原位和一次通过。
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if(head == null)
             return null;

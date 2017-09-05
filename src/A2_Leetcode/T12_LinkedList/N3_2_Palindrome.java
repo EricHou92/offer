@@ -5,7 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N3_2_Palindrome {
 
-    //O(n)时间, O(1)空间
+    //给出一个单链表，确定它是否是回文,  O(n)时间, O(1)空间
     public boolean isPalindrome(ListNode head) {
         //(1) Move: fast pointer goes to the end, and slow goes to the middle.
         ListNode fast = head, slow = head;

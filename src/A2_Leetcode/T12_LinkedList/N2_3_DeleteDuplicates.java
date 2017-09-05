@@ -5,6 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N2_3_DeleteDuplicates {
 
+    //给定一个排序的链表，删除所有的重复项，使每个元素只显示一次
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null)
             return head;
