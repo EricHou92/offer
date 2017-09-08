@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class N11_MinTimeDiff {
 
+    //给出“小时：分钟”格式的24小时时钟点列表，找出列表中任意两个时间点之间的最小分钟差值。
     public int findMinDifference(List<String> timePoints) {
         int result = Integer.MAX_VALUE;
         List<Integer> list = new ArrayList<>();

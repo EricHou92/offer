@@ -5,6 +5,7 @@ package A2_Leetcode.T10_Array;
  */
 public class N3_ThirdMax {
 
+    //给定一个非空数组的整数，返回该数组中的第三个最大数。 如果不存在，返回最大数量。 时间复杂度O（n）
     public int thirdMax(int[] nums) {
         Integer max1 = null;
         Integer max2 = null;

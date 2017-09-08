@@ -5,6 +5,7 @@ package A2_Leetcode.T11_String;
  */
 public class N7_1_ValidPalindrome {
 
+    //给定一个字符串，确定它是否是回文，只考虑字母数字字符和忽略大小写。
     public boolean isPalindrome(String s) {
         if (s.length() == 0)
             return true;

@@ -6,6 +6,7 @@ package A2_Leetcode.T11_String;
 
 public class N7_3_LPSubsequence {
 
+    //给定一个字符串s，以s为单位找到最长的回文子序列长度。
     public int longestPalindromeSubseq(String s) {
         int[][] dp = new int[s.length()][s.length()];
         for (int i = s.length() - 1; i >= 0; i--) {

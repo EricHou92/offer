@@ -5,6 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N10_SwapPairs {
 
+    //给定一个链表，交换每两个相邻的节点并返回其头
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null)
             return head;

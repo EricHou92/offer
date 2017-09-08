@@ -4,11 +4,8 @@ package A2_Leetcode.T10_Array;
  * Created by ciciya on 2017/6/9.
  */
 public class N13_RotateImage {
-    public static void main(String[] args){
-        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
-        new N13_RotateImage().rotate(matrix);
-    }
 
+    //给出一个表示图像的n×n 2D矩阵。将图像旋转90度（顺时针）
     public void rotate(int[][] matrix) {
         for(int i = 0; i<matrix.length; i++){
             for(int j = i; j<matrix[0].length; j++){

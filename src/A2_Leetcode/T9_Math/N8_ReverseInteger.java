@@ -5,6 +5,7 @@ package A2_Leetcode.T9_Math;
  */
 public class N8_ReverseInteger {
 
+    //反转数字的整数
     public int reverse(int x) {
         long result = 0;
         while( x != 0){

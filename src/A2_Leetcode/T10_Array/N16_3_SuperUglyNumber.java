@@ -5,11 +5,12 @@ package A2_Leetcode.T10_Array;
  */
 public class N16_3_SuperUglyNumber {
 
-    public int nthSuperUglyNumber(int k, int[] primes) {
-        int[] nums = new int[k];
+    //写一个程序找到第n个超级丑陋的数字。超丑号是正数，其所有素因子都在大小为k的给定素数列表中。
+    public int nthSuperUglyNumber(int n, int[] primes) {
+        int[] nums = new int[n];
         int[] index = new int[primes.length];
         nums[0] = 1;
-        for (int i = 1; i < k; i++) {
+        for (int i = 1; i < n; i++) {
             //find next
             nums[i] = Integer.MAX_VALUE;
             for (int j = 0; j < primes.length; j++)
@@ -20,6 +21,6 @@ public class N16_3_SuperUglyNumber {
                     index[j]++;
             }
         }
-        return nums[k - 1];
+        return nums[n - 1];
     }
 }

@@ -5,18 +5,19 @@ package A2_Leetcode.T11_String;
  */
 public class N9_BasicCalculatorII {
 
-    public int calculate(String s) {
-        if (s == null)
+    //实现基本的计算器来评估一个简单的表达式字符串, 表达式字符串仅包含非负整数，+， - ，*，/和空格。
+    public int calculate(String string) {
+        if (string == null)
             return 0;
-        s = s.trim().replaceAll(" +", "");
+        string = string.trim().replaceAll(" +", "");
         int result = 0;
         long preVal = 0; // initial preVal is 0
         char sign = '+'; // initial sign is +
         int i = 0;
-        while (i < s.length()) {
+        while (i < string.length()) {
             long curVal = 0;
-            while (i < s.length() && (int)s.charAt(i) <= 57 && (int)s.charAt(i) >= 48) { // int
-                curVal = curVal*10 + (s.charAt(i) - '0');
+            while (i < string.length() && (int)string.charAt(i) <= 57 && (int)string.charAt(i) >= 48) { // int
+                curVal = curVal*10 + (string.charAt(i) - '0');
                 i++;
             }
             if (sign == '+') {
@@ -30,8 +31,8 @@ public class N9_BasicCalculatorII {
             } else if (sign == '/') {
                 preVal = preVal / curVal; // not update result, combine preVal & curVal and keep loop
             }
-            if (i < s.length()) { // getting new sign
-                sign = s.charAt(i);
+            if (i < string.length()) { // getting new sign
+                sign = string.charAt(i);
                 i++;
             }
         }

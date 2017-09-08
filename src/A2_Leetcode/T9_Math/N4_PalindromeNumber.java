@@ -5,13 +5,14 @@ package A2_Leetcode.T9_Math;
  */
 public class N4_PalindromeNumber {
 
-    public boolean isPalindrome(int x) {
-        int max = x;
+    //确定一个整数是否是回文
+    public boolean isPalindrome(int num) {
+        int max = num;
         int min = 0;
         while(max >0){
             min = min*10 + max%10;
             max /=10;
         }
-        return min==x;
+        return min==num;
     }
 }

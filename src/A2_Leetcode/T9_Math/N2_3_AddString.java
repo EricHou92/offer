@@ -5,6 +5,7 @@ package A2_Leetcode.T9_Math;
  */
 public class N2_3_AddString {
 
+    //给定两个非负整数num1和num2表示为字符串，返回num1和num2的和。
     public String addStrings(String num1, String num2) {
         StringBuilder sb = new StringBuilder();
         int carry = 0;

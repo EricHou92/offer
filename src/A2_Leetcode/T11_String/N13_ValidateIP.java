@@ -6,9 +6,12 @@ package A2_Leetcode.T11_String;
 public class N13_ValidateIP {
 
     public String validIPAddress(String IP) {
-        if(isValidIPv4(IP)) return "IPv4";
-        else if(isValidIPv6(IP)) return "IPv6";
-        else return "Neither";
+        if(isValidIPv4(IP))
+            return "IPv4";
+        else if(isValidIPv6(IP))
+            return "IPv6";
+        else
+            return "Neither";
     }
 
     public boolean isValidIPv4(String ip) {

@@ -5,13 +5,14 @@ package A2_Leetcode.T11_String;
  */
 public class N6_RansomNote {
 
-    public boolean canConstruct(String ransomNote, String magazine) {
+    //s2字母包含s1
+    public boolean canConstruct(String s1, String s2) {
         int[] array = new int[26];
-        for (int i = 0; i < magazine.length(); i++) {
-            array[magazine.charAt(i) - 'a']++;
+        for (int i = 0; i < s2.length(); i++) {
+            array[s2.charAt(i) - 'a']++;
         }
-        for (int i = 0; i < ransomNote.length(); i++) {
-            if(--array[ransomNote.charAt(i)-'a'] < 0)
+        for (int i = 0; i < s1.length(); i++) {
+            if(--array[s1.charAt(i)-'a'] < 0)
                 return false;
         }
         return true;

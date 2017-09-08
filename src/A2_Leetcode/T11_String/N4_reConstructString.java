@@ -5,7 +5,7 @@ package A2_Leetcode.T11_String;
  */
 public class N4_reConstructString {
 
-    //前序遍历
+    //前序遍历, 构造一个由括号和整数组成的字符串，并以预订遍历方式从二叉树中构建。
     public String tree2str(TreeNode t) {
         if (t == null)
             return "";

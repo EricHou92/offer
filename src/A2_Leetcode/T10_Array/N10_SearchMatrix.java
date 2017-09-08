@@ -5,6 +5,7 @@ package A2_Leetcode.T10_Array;
  */
 public class N10_SearchMatrix {
 
+    //每行的整数从左到右排序。每行的第一个整数大于上一行的最后一个整数。  判断是否有目标元素
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length < 1 || matrix[0].length <1)
             return false;

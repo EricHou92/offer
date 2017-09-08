@@ -5,7 +5,7 @@ package A2_Leetcode.T11_String;
  */
 public class N12_DeleteOperation {
 
-    //类似LCS
+    //给出两个单词word1和word2，找到使word1和word2相同的最小步数，在每个步骤中，您可以删除任一字符串中的一个字符。
     public int minDistance(String word1, String word2) {
         int dp[][] = new int[word1.length()+1][word2.length()+1]; //最长公共子集
         for(int i = 0; i <= word1.length(); i++) {

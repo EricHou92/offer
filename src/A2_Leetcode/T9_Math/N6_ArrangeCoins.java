@@ -5,6 +5,7 @@ package A2_Leetcode.T9_Math;
  */
 public class N6_ArrangeCoins {
 
+    //你总共有n个硬币要形成一个楼梯形状，每个第k行必须要有k个硬币。给定n，找到可以形成的完整阶梯行的总数。
     public int arrangeCoins(int n) {
         int i;
         for (i=1; n>0; i++){

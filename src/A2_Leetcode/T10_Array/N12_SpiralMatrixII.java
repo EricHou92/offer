@@ -5,6 +5,7 @@ package A2_Leetcode.T10_Array;
  */
 public class N12_SpiralMatrixII {
 
+    //给定m×n个元素（m行，n列）的矩阵，以螺旋顺序返回矩阵的所有元素。
     public int[][] generateMatrix(int n) {
         int[][] result = new int[n][n];
         if (n == 0)

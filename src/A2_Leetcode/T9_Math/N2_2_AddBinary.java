@@ -5,6 +5,7 @@ package A2_Leetcode.T9_Math;
  */
 public class N2_2_AddBinary {
 
+    //给定两个二进制字符串，返回它们的和（也是一个二进制字符串）。
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
         int carry = 0;

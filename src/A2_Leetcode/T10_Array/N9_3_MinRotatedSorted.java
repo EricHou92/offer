@@ -5,6 +5,8 @@ package A2_Leetcode.T10_Array;
  */
 public class N9_3_MinRotatedSorted {
 
+    //假设以升序排列的数组在某个枢轴上旋转，您可以预先知道。（即，0 1 2 4 5 6 7可能变成4 5 6 7 0 1 2）。
+    //找到最小元素。您可以假定阵列中不存在任何重复。
     public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length-1;

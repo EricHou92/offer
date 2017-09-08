@@ -5,21 +5,7 @@ import java.util.Scanner;
 
 public class N2_1_KthLargest {
 
-    public static void main(String args[]){
-        Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNext()) {
-            String string = scanner.nextLine();
-            String[] strings = string.split(" ");
-            int[] nums = new int[strings.length];
-            for (int i = 0; i < strings.length; i++) {
-                nums[i] = Integer.parseInt(strings[i]);
-            }
-            int k = scanner.nextInt();
-            System.out.println(findKthLargest(nums, k));
-        }
-    }
-
-    public static int findKthLargest(int[] nums, int k) {
+    public int findKthLargest(int[] nums, int k) {
         shuffle(nums);
         k = nums.length - k;
         int low = 0;
@@ -37,37 +23,37 @@ public class N2_1_KthLargest {
         return nums[k];
     }
 
-    private static void shuffle(int[] nums) {
+    private void shuffle(int[] nums) {
         Random random = new Random();
         for(int i=1; i<nums.length; i++) {
-            int r = random.nextInt(i + 1);
-            exchange(nums, i, r);
+            int rand = random.nextInt(i + 1);
+            int tmp = nums[i];
+            nums[i] = nums[rand];
+            nums[rand] = tmp;
         }
     }
 
-    private static int partition(int[] nums, int low, int high) {
-        int i = low;
-        int j = high + 1;
-        while(true) {
-            while(i < high && less(nums[++i], nums[low]));
-            while(j > low && less(nums[low], nums[--j]));
-            if(i >= j) {
-                break;
+    private int partition(int[] nums, int low, int high) {
+        int temp = nums[low]; //数组的第一个作为划分元素
+        while(low < high){
+            while(low<high && nums[high]>=temp){
+                high--;
             }
-            exchange(nums, i, j);
+            if(nums[high] < temp){
+                int temp1 = nums[high];
+                nums[high] = nums[low];
+                nums[low] = temp1;
+            }
+            while(low<high && nums[low]<=temp){
+                low++;
+            }
+            if(nums[low] > temp){
+                int temp1 = nums[low];
+                nums[low] = nums[high];
+                nums[high] = temp1;
+            }
         }
-        exchange(nums, low, j);
-        return j;
-    }
-
-    private static void exchange(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
-    }
-
-    private static boolean less(int i, int j) {
-        return i < j;
+        return low ;
     }
 
 }

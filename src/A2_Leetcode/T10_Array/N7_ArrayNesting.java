@@ -5,6 +5,8 @@ package A2_Leetcode.T10_Array;
  */
 public class N7_ArrayNesting {
 
+    //S [K] = {A [K]，A [A [K]]，A [A [A [K]]]，...}
+    // 写一个给定由N个整数组成的数组A的函数，返回该数组的最大集合S [K]的大小。
     public int arrayNesting(int[] nums) {
         int result = 0;
         for (int i = 0; i< nums.length; i++) {

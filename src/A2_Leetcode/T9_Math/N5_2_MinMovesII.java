@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class N5_2_MinMovesII {
 
-    //使数组中的所有元素等于min元素
+    //给定非空整数数组，找到使所有数组元素相等所需的最小移动数，移动将所选元素递增1或将所选元素递减1。
     public int minMoves2(int[] nums) {
         Arrays.sort(nums);
         int result = 0;

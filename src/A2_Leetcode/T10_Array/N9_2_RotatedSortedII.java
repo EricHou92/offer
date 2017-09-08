@@ -5,7 +5,7 @@ package A2_Leetcode.T10_Array;
  */
 public class N9_2_RotatedSortedII {
 
-    //nums有重复
+    //nums有重复,  编写一个函数来确定给定的目标是否在数组中。
     public boolean search(int[] nums, int target) {
         if(nums == null || nums.length == 0)
             return false;

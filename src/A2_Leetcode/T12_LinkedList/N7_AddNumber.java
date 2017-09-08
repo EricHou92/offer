@@ -3,7 +3,7 @@ package A2_Leetcode.T12_LinkedList;
 /**
  * Created by ciciya on 2017/5/24.
  */
-public class N7_1_AddNumber {
+public class N7_AddNumber {
 
     /*Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
     Output: 7 -> 0 -> 8*/

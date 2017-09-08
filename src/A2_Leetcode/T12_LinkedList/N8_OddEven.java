@@ -5,6 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N8_OddEven {
 
+    //给定一个单链表，将所有奇数节点组合在一起，然后是偶数节点
     public ListNode oddEvenList(ListNode head) {
         if (head == null)
             return head;
