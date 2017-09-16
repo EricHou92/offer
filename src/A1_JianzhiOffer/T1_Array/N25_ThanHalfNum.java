@@ -5,8 +5,8 @@ package A1_JianzhiOffer.T1_Array;
  */
 public class N25_ThanHalfNum {
 
+    //数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字
     public int MoreThanHalfNum_Solution(int[] nums) {
-        //剑指offer根据数组特点，O(n)
         if (nums.length == 0)
             return 0;
         int result = nums[0];

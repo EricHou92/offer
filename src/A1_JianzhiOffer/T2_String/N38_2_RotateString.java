@@ -5,6 +5,7 @@ package A1_JianzhiOffer.T2_String;
  */
 public class N38_2_RotateString {
 
+    //字符序列”abcXYZdef”,要求输出循环左移3位后的结果，即“XYZdefabc”。
     public String LeftRotateString(String str, int n) {
         if(str.length() == 0)
             return "";

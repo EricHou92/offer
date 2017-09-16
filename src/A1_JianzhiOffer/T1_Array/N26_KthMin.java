@@ -1,14 +1,16 @@
-package A2_Leetcode.T1_DivideAndConquer;
+package A1_JianzhiOffer.T1_Array;
 
+import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
-public class N2_1_KthLargest {
+/**
+ * Created by ciciya on 2017/2/22.
+ */
+public class N26_KthMin {
 
-    //  输入n个整数，找出其中最大的K个数。
+    //输入n个整数，找出其中最小的K个数。
     public int findKthLargest(int[] nums, int k) {
         shuffle(nums);
-        k = nums.length - k;
         int low = 0;
         int high = nums.length - 1;
         while (low < high) {
@@ -56,5 +58,4 @@ public class N2_1_KthLargest {
         }
         return low ;
     }
-
 }

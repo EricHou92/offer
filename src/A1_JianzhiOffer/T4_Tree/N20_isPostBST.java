@@ -3,8 +3,6 @@ package A1_JianzhiOffer.T4_Tree;
 import java.util.Arrays;
 
 /**
- * @author ciciya
- * BST的后序序列的合法序列，
  * 对于一个序列S，最后一个元素是x （也就是根），
  * 如果去掉最后一个元素的序列为T，
  * 那么T满足：T可以分成两段，前一段（左子树）小于x，后一段（右子树）大于x，
@@ -12,6 +10,7 @@ import java.util.Arrays;
  */
 public class N20_isPostBST {
 
+    //输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。
     public boolean isPostBST(int[] array) {
         if(array.length == 0)
             return false;

@@ -2,6 +2,7 @@ package A1_JianzhiOffer.T4_Tree;
 
 public class N14_HasSubtree {
 
+	//输入两棵二叉树A，B，判断B是不是A的子结构
 	public boolean HasSubtree(TreeNode root1,TreeNode root2) {
 		boolean result = false;
 		if (root2 != null && root1 != null) {
@@ -15,7 +16,7 @@ public class N14_HasSubtree {
 		return result;
 	}
 
-	private boolean subTree(TreeNode root1, TreeNode root2) {
+	boolean subTree(TreeNode root1, TreeNode root2) {
 		if (root2 == null)
 			return true;
 		if (root1 == null)

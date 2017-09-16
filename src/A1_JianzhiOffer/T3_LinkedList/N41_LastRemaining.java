@@ -6,7 +6,8 @@ import java.util.LinkedList;
  * Created by ciciya on 2017/3/2.
  */
 public class N41_LastRemaining {
-    //约瑟夫环问题
+
+    //约瑟夫环问题, 最后一个剩下的数字
     public int LastRemaining_Solution(int n, int m) {
         if(n<1 || m<1)
             return -1;
@@ -17,7 +18,7 @@ public class N41_LastRemaining {
     }
 
     public int LastRemaining_SolutionI(int n, int m) {
-        //用Java实现的话，可以使用LinkedList，考虑删除节点的效率。模拟游戏过程即可：
+        //模拟游戏过程：
         LinkedList<Integer> list = new LinkedList<>();  //双向链表
         for (int i = 0; i < n; i++)
             list.add(i);

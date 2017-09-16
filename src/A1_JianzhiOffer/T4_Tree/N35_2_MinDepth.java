@@ -5,6 +5,7 @@ package A1_JianzhiOffer.T4_Tree;
  */
 public class N35_2_MinDepth {
 
+    //最小深度
     public int minDepth(TreeNode root) {
         if(root == null)
             return 0;

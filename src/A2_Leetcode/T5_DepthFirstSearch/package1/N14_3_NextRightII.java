@@ -16,20 +16,23 @@ public class N14_3_NextRightII {
     //any binary tree
     public void connect(TreeLinkNode root) {
         while(root != null){
-            TreeLinkNode tempChild = new TreeLinkNode(0);
-            TreeLinkNode currentChild = tempChild;
-            while(root!=null){
+            TreeLinkNode temp = new TreeLinkNode(0);
+            TreeLinkNode cur = temp;
+            while(root != null){
                 if(root.left != null) {
-                    currentChild.next = root.left;
-                    currentChild = currentChild.next;
+                    cur.next = root.left;
+                    cur = cur.next;
                 }
                 if(root.right != null) {
-                    currentChild.next = root.right;
-                    currentChild = currentChild.next;
+                    cur.next = root.right;
+                    cur = cur.next;
                 }
                 root = root.next;
             }
-            root = tempChild.next;
+            root = temp.next;
         }
     }
+
+
+
 }

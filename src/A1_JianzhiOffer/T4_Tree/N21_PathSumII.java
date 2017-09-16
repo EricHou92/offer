@@ -4,14 +4,15 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class N21_PathSumII {
+
+	//输入一颗二叉树和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。
 	public List<List<Integer>> pathSumII(TreeNode root, int sum){
-		List<Integer> list  = new LinkedList<>();
 		List<List<Integer>> allList  = new LinkedList<>();
-		pathSum(root, sum, list, allList);
+		pathSum(root, sum, new LinkedList<>(), allList);
 		return allList;
 	}
 
-	public void pathSum(TreeNode root, int sum, List<Integer> list, List<List<Integer>> allList) {
+	void pathSum(TreeNode root, int sum, List<Integer> list, List<List<Integer>> allList) {
 		if (root == null)
 			return;
 		list.add(root.val);

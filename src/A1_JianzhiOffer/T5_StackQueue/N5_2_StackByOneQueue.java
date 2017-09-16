@@ -8,6 +8,7 @@ import java.util.Queue;
  */
 public class N5_2_StackByOneQueue {
 
+    //用一个队列来实现一个栈
     private Queue<Integer> queue = new LinkedList<>();
 
     public void push(int x) {
@@ -20,11 +21,4 @@ public class N5_2_StackByOneQueue {
         return queue.poll();
     }
 
-    public int peek() {
-        return queue.peek();
-    }
-
-    public boolean empty() {
-        return queue.isEmpty();
-    }
 }

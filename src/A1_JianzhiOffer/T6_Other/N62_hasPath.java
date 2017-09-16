@@ -11,6 +11,8 @@ public class N62_hasPath {
    在递归中，不满足题目的会自动出栈回到上一个状态；
    所谓的回溯无非就是对使用过的字符进行标记后和处理后的去标记*/
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
+
+        //请设计一个函数，用来判断在一个矩阵中是否存在一条包含某字符串所有字符的路径。
         boolean used[] = new boolean[matrix.length];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -21,7 +23,7 @@ public class N62_hasPath {
         return false;
     }
 
-    private boolean helper(char[] matrix, int rows, int cols, int i, int j, char[] str, int k, boolean[] used) {
+    boolean helper(char[] matrix, int rows, int cols, int i, int j, char[] str, int k, boolean[] used) {
         int index = i * cols + j;
         if (i < 0 || i >= rows || j < 0 || j >= cols || matrix[index] != str[k] || used[index])
             return false;

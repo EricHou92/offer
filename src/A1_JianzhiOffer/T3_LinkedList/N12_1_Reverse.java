@@ -5,7 +5,7 @@ package A1_JianzhiOffer.T3_LinkedList;
  */
 public class N12_1_Reverse {
 
-    //非递归
+    //非递归, 反转链表
     public ListNode reverseList(ListNode head) {
         ListNode newHead = null;
         while (head != null) {

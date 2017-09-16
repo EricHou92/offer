@@ -8,13 +8,14 @@ import java.util.List;
  */
 public class N37_2_ContinuousSequence {
 
+    //输出所有和为S的连续正数序列
     public List<List<Integer>> FindContinuousSequence(int sum) {
         List<List<Integer>> lists = new ArrayList<>();
         if(sum <= 1)
             return lists;
         int low = 1;
         int high = 2;
-        while(low <= (1+sum)/2){          //当small==(1+helper)/2的时候停止
+        while(low <= (1+sum)/2){
             int curSum = sumOfList(low, high);
             if(curSum == sum){
                 List<Integer> list = new ArrayList<>();

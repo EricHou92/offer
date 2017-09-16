@@ -5,6 +5,7 @@ package A1_JianzhiOffer.T2_String;
  */
 public class N38_1_ReverseSentence {
 
+    //例如“student. a am I”。把句子单词的顺序翻转了，正确的句子是“I am a student.”。
     public String ReverseSentence(String str){
         StringBuilder sb = new StringBuilder();
         String[] strings = str.trim().split(" +"); //中间连续两个空格

@@ -5,7 +5,7 @@ package A1_JianzhiOffer.T3_LinkedList;
  */
 public class N11_KthNodeFromTail {
 
-    //查找单链表中的倒数第k个结点
+    //输入一个链表，输出该链表中倒数第k个结点
     public ListNode FindKthToTail(ListNode head, int k) {
         if (head==null || k==0)
             return null;
@@ -16,7 +16,6 @@ public class N11_KthNodeFromTail {
             if (fast == null)   //链表结点数少于k
                 return null;
         }
-        //让fast和slow结点整体向后移动，直到fast走到最后一个结点
         while (fast.next != null) {
             fast = fast.next;
             slow = slow.next;

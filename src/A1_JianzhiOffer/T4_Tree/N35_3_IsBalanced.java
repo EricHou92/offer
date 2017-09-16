@@ -1,13 +1,15 @@
 package A1_JianzhiOffer.T4_Tree;
 
 public class N35_3_IsBalanced {
-    private boolean result = true;
+
+	//输入一棵二叉树，判断该二叉树是否是平衡二叉树。
+    boolean result = true;
 	public boolean isBalanced(TreeNode root) {
 		getDepth(root);
 		return result;
 	}
 	
-	private int getDepth(TreeNode root) {
+	int getDepth(TreeNode root) {
 		if(root == null)
 			return 0;
 		int left = getDepth(root.left);
@@ -16,4 +18,5 @@ public class N35_3_IsBalanced {
 			result = false;
 		return left>right ? left+1 : right+1;
 	}
+
 }

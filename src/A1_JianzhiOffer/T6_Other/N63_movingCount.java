@@ -5,6 +5,8 @@ package A1_JianzhiOffer.T6_Other;
  */
 public class N63_movingCount {
 
+    //地上有一个m行和n列的方格。一个机器人从坐标0,0的格子开始移动，
+    // 每一次只能向左，右，上，下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于threshold的格子。
     public int movingCount(int threshold, int rows, int cols) {
         boolean used[][] = new boolean[rows][cols]; //记录是否已经走过
         return helper(0, 0, rows, cols, used, threshold);

@@ -5,20 +5,8 @@ package A1_JianzhiOffer.T3_LinkedList;
  */
 public class N33_Intersection {
 
-    //第一种，O(m+n)
+    //输入两个链表，找出它们的第一个公共结点。 O(n)
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if(headA == null || headB == null)
-            return null;
-        ListNode curA = headA, curB = headB;
-        while(curA != curB){
-            curA = curA==null?headB:curA.next;
-            curB = curB==null?headA:curB.next;
-        }
-        return curA;
-    }
-
-    //第二种， 计算链表长度,O(n)
-    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
         int lenA = getLength(headA);
         int lenB = getLength(headB);
         // move headA and headB to the same start point
@@ -30,7 +18,6 @@ public class N33_Intersection {
             headB = headB.next;
             lenB--;
         }
-        // find the intersection until end
         while (headA != headB) {
             headA = headA.next;
             headB = headB.next;

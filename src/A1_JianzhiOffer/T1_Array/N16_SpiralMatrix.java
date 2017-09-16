@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class N16_SpiralMatrix {
 
-    //螺旋打印矩阵
+    //螺旋打印矩阵,输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
         if (matrix == null || matrix.length == 0)
@@ -43,7 +43,6 @@ public class N16_SpiralMatrix {
                     result.add(matrix[i][colLow]);
             }
             colLow++;
-
         }
         return result;
     }

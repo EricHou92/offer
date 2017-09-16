@@ -6,6 +6,8 @@ import java.util.Stack;
  * Created by ciciya on 2017/3/10.
  */
 public class N5_1_QueueByTwoStacks {
+
+    //用两个栈来实现一个队列，完成队列的Push和Pop操作
     private Stack<Integer> stack1 = new Stack<>();
     private Stack<Integer> stack2 = new Stack<>();
 
@@ -19,19 +21,6 @@ public class N5_1_QueueByTwoStacks {
                 stack2.push(stack1.pop());
         }
         return stack2.pop();
-    }
-
-    public int peek() {
-        if(stack2.empty()) {
-            while(!stack1.empty()) {
-                stack2.push(stack1.pop());
-            }
-        }
-        return stack2.peek();
-    }
-
-    public boolean empty() {
-        return stack1.empty() && stack2.empty();
     }
 
 }

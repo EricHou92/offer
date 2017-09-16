@@ -1,25 +1,27 @@
 package A1_JianzhiOffer.T1_Array;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by ciciya on 2017/2/27.
  */
 public class N37_1_TwoNumbersWithSum {
 
-    public ArrayList<Integer> FindNumbersWithSum(int[] array, int sum) {
-        //开始还在纠结乘积最小，后来转念一想，a+b=helper,a和b越远乘积越小，而一头一尾两个指针往内靠近的方法找到的就是乘积最小的情况。
-        ArrayList<Integer> list = new ArrayList<>();
-        if (array == null || array.length < 2)
+    // 输入一个递增排序的数组和一个数字S，在数组中查找两个数，是的他们的和正好是S，如果有多对数字的和等于S，输出两个数的乘积最小的。
+    // a和b越远乘积越小
+    public List<Integer> FindNumbersWithSum(int[] num, int sum) {
+        List<Integer> list = new ArrayList<>();
+        if (num == null || num.length < 2)
             return list;
         int low = 0;
-        int high = array.length-1;
+        int high = num.length-1;
         while(low < high){
-            if(array[low]+array[high] == sum){
-                list.add(array[low]);
-                list.add(array[high]);
+            if(num[low]+num[high] == sum){
+                list.add(num[low]);
+                list.add(num[high]);
                 return list;
-            }else if(array[low]+array[high] > sum){
+            }else if(num[low]+num[high] > sum){
                 high--;
             }else{
                 low++;

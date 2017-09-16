@@ -8,6 +8,7 @@ import java.util.Deque;
  */
 public class N61_maxInWindows {
 
+    //给定一个数组和滑动窗口的大小，找出所有滑动窗口里数值的最大值。
     public int[] maxSlidingWindow(int[] array, int k) {
         if (array == null || k <= 0)
             return new int[0];

@@ -9,6 +9,7 @@ package A1_JianzhiOffer.T4_Tree;
  */
 public class N58_GetSerialize {
 
+	//请实现两个函数，分别用来序列化和反序列化二叉树
 	public String Serialize(TreeNode root) {
 		StringBuffer sb = new StringBuffer();
 		if(root == null){

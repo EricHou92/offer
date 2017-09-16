@@ -5,6 +5,7 @@ package A1_JianzhiOffer.T1_Array;
  */
 public class N30_2_KthUglyNumber {
 
+    //把只包含因子2、3和5的数称作丑数. 习惯上我们把1当做是第一个丑数，求按从小到大的顺序的第N个丑数。
     public int KthUglyNumber(int k) {
         int[] ugly = new int[k];
         ugly[0] = 1;

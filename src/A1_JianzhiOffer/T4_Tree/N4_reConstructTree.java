@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class N4_reConstructTree {
 
+	//输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。
 	public TreeNode reConstructBinaryTree(int[] pre,int[] mid) {
 		if(pre.length == 0 || mid.length == 0)
 			return null;

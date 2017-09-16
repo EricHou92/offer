@@ -23,6 +23,8 @@ public class N18_IsPopOrder {
     依次执行，最后辅助栈为空。如果不为空说明弹出序列不是该栈的弹出顺序。*/
 
     public boolean IsPopOrder(int[] pushA, int[] popA) {
+
+        //输入两个整数序列，第一个序列表示栈的压入顺序，请判断第二个序列是否为该栈的弹出顺序。
         if(pushA.length == 0 || popA.length == 0)
             return false;
         Stack<Integer> stack = new Stack<>();

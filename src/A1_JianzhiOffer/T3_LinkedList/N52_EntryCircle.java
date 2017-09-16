@@ -5,6 +5,7 @@ package A1_JianzhiOffer.T3_LinkedList;
  */
 public class N52_EntryCircle {
 
+    //一个链表中包含环，请找出该链表的环的入口结点。
     public ListNode EntryNodeOfLoop(ListNode head) {
         if(head==null || head.next==null || head.next.next==null)
             return null;

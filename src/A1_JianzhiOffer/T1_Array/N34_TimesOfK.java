@@ -5,7 +5,7 @@ package A1_JianzhiOffer.T1_Array;
  */
 public class N34_TimesOfK {
 
-    //二分查找改进
+    //统计一个数字在排序数组中出现的次数
     public  int GetNumberOfK(int[] array, int k){
         if(array==null || array.length==0)
             return 0;

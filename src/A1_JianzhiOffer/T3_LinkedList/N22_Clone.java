@@ -12,7 +12,7 @@ public class N22_Clone {
     public RandomListNode Clone0(RandomListNode head) {
         if (head == null)
             return null;
-        RandomListNode newHead = new RandomListNode(head.label);
+        RandomListNode newHead = new RandomListNode(head.val);
         newHead.random = head.random;
         newHead.next = Clone0(head.next);
         return newHead;
@@ -25,7 +25,7 @@ public class N22_Clone {
         RandomListNode pCur = head;
         //复制next 如原来是A->B->C 变成A->A'->B->B'->C->C'
         while(pCur!=null){
-            RandomListNode node = new RandomListNode(pCur.label);
+            RandomListNode node = new RandomListNode(pCur.val);
             node.next = pCur.next;
             pCur.next = node;
             pCur = node.next;
@@ -59,7 +59,7 @@ public class N22_Clone {
         // loop 1. copy all the nodes
         RandomListNode node = head;
         while (node != null) {
-            map.put(node, new RandomListNode(node.label));
+            map.put(node, new RandomListNode(node.val));
             node = node.next;
         }
         // loop 2. assign next and random pointers
@@ -73,11 +73,11 @@ public class N22_Clone {
     }
 
     class RandomListNode {
-        int label;
+        int val;
         RandomListNode next;
         RandomListNode random;
-        RandomListNode(int label) {
-            this.label = label;
+        RandomListNode(int val) {
+            this.val = val;
         }
     }
 }

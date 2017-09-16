@@ -8,8 +8,8 @@ import java.util.List;
  */
 public class N3_TailToHead {
 
+    //输入一个链表，从尾到头打印链表每个节点的值。
     public List<Integer> printList(ListNode node) {
-        //从尾到头打印单链表
         List<Integer> list = new ArrayList<>();
         if (node != null) {
             printList(node.next);

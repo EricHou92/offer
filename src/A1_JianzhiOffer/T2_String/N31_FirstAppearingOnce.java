@@ -8,8 +8,8 @@ import java.util.Map;
  */
 public class N31_FirstAppearingOnce {
 
+    //在一个字符串中找到第一个只出现一次的字符,并返回它的位置
     public int FirstNotRepeatingChar(String str) {
-        //哈希表存储
         Map<Character, Integer> map = new HashMap<>();
         for(int i=0; i<str.length(); i++){
             char c = str.charAt(i);

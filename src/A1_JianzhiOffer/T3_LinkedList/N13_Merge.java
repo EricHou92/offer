@@ -5,7 +5,7 @@ package A1_JianzhiOffer.T3_LinkedList;
  */
 public class N13_Merge {
 
-    //合并两个有序的单链表，合并之后的链表依然有序
+    //输入两个单调递增的链表，输出合成后的链表
     public ListNode Merge(ListNode list1, ListNode list2) {
         if(list1 == null)
             return list2;

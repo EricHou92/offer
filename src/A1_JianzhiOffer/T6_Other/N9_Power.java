@@ -7,7 +7,7 @@ import static java.lang.Math.abs;
  */
 public class N9_Power {
 
-    //1.递归版本
+    //1.递归版本, 求x的n次方。
     public double myPow(double x, int n) {
         if(n == 0)
             return 1;
