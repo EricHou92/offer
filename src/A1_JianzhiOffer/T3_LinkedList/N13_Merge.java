@@ -6,18 +6,18 @@ package A1_JianzhiOffer.T3_LinkedList;
 public class N13_Merge {
 
     //输入两个单调递增的链表，输出合成后的链表
-    public ListNode Merge(ListNode list1, ListNode list2) {
-        if(list1 == null)
-            return list2;
-        else if(list2 == null)
-            return list1;
+    public ListNode Merge(ListNode head1, ListNode head2) {
+        if(head1 == null)
+            return head2;
+        else if(head2 == null)
+            return head1;
         ListNode mergeHead;
-        if(list1.val < list2.val){
-            mergeHead = list1;
-            mergeHead.next = Merge(list1.next, list2);
+        if(head1.val < head2.val){
+            mergeHead = head1;
+            mergeHead.next = Merge(head1.next, head2);
         } else{
-            mergeHead = list2;
-            mergeHead.next = Merge(list1, list2.next);
+            mergeHead = head2;
+            mergeHead.next = Merge(head1, head2.next);
         }
         return mergeHead;
     }
