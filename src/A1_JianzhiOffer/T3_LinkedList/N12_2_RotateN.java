@@ -10,18 +10,18 @@ public class N12_2_RotateN {
     public ListNode rotateRight(ListNode head, int k) {
         if (head==null || head.next==null)
             return head;
-        ListNode fast = head;
-        ListNode slow = head;
+        ListNode tail = head;
+        ListNode cur = head;
         int len = 1;
-        while (fast.next != null) {
-            fast = fast.next;
+        while (tail.next != null) {
+            tail = tail.next;
             len++;
         }
         for(int i=1; i < len-k%len; i++)
-            slow = slow.next;   //找到链表的第len-k个节点
-        fast.next = head;
-        head = slow.next;
-        slow.next = null;
+            cur = cur.next;   //找到链表的第len-k个节点
+        tail.next = head;
+        head = cur.next;
+        cur.next = null;
         return head;
     }
 }
