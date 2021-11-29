@@ -23,7 +23,7 @@ public class N21_PathSumII {
 		} else {
 			pathSum(root.left, sum - root.val, list, allList);
 			pathSum(root.right, sum - root.val, list, allList);
+			list.remove(list.size() - 1);
 		}
-		list.remove(list.size() - 1);
 	}
 }
