@@ -4,8 +4,9 @@ public class N2_ReplaceBlank {
 
 	//请实现一个函数，将一个字符串中的空格替换成“%20”.
 	public String replaceSpace(StringBuffer str) {
-		// 从后往前，先计算需要多少空间，然后从后往前移动，则每个字符只为移动一次，这样效率更高一点。
-		int spaceNum = 0;  //spaceNum为计算空格数
+		// 从后往前，先计算需要多少空间，然后从后往前移动，则每个字符只为移动一次，这样效率更高一点
+		// 时间复杂度：O(n) 空间复杂度：O(1)
+		int spaceNum = 0;
 		for(int i=0;i<str.length();i++){
 			if(str.charAt(i)==' ')
 				spaceNum++;

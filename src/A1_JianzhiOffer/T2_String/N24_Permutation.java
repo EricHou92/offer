@@ -16,21 +16,21 @@ public class N24_Permutation {
         return list;
     }
 
-    private void backtrack(List<String> list, List<Character> tempList, char[] nums, boolean[] used){
-        if(tempList.size() == nums.length){
+    private void backtrack(List<String> list, List<Character> tempList, char[] chars, boolean[] used){
+        if(tempList.size() == chars.length){
             String string = "";
             for(Character i : new ArrayList<>(tempList)){
                 string += i;
             }
             list.add(string);
         } else{
-            for(int i = 0; i < nums.length; i++){
-                if(used[i] || (i > 0 && nums[i] == nums[i-1] && !used[i - 1]))
+            for(int i = 0; i < chars.length; i++){
+                if(used[i] || (i > 0 && chars[i] == chars[i-1] && !used[i - 1]))
                     continue;
                 used[i] = true;
-                tempList.add(nums[i]);
-                backtrack(list, tempList, nums, used);
-                used[i] = false;
+                tempList.add(chars[i]);
+                backtrack(list, tempList, chars, used);
+                used[i] = false; //条件不符合，该字符还原为未访问过的标记， 回溯的本质就是标记后再去标记，以返回最初的状态
                 tempList.remove(tempList.size() - 1);
             }
         }

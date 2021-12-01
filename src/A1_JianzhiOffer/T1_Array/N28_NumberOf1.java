@@ -6,7 +6,7 @@ package A1_JianzhiOffer.T1_Array;
 public class N28_NumberOf1 {
 
     //返回任意非负整数区间（1—n）中1出现的次数
-    public int NumberOf1Between1AndN_Solution(int n) {
+    public int countDigitOne(int n) {
         int result = 0;
         for (long i = 1; i <= n; i *= 10) {
             long shi = n / i; //十位数字

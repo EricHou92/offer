@@ -6,8 +6,8 @@ package A1_JianzhiOffer.T6_Other;
 public class N63_movingCount {
 
     //地上有一个m行和n列的方格。一个机器人从坐标0,0的格子开始移动，
-    // 每一次只能向左，右，上，下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于threshold的格子。
-    public int movingCount(int threshold, int rows, int cols) {
+    // 每一次只能向左，右，上，下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于threshold的格子，该机器人能够到达多少个格子
+    public int movingCount(int rows, int cols, int threshold) {
         boolean used[][] = new boolean[rows][cols]; //记录是否已经走过
         return helper(0, 0, rows, cols, used, threshold);
     }
@@ -25,9 +25,10 @@ public class N63_movingCount {
 
     private int numSum(int i) {
         int sum = 0;
-        do
-            sum += i%10;
-        while((i = i/10) > 0);
+        while(i != 0) {
+            sum += i % 10;
+            i /= 10;
+        }
         return sum;
     }
 }

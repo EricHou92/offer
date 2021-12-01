@@ -10,7 +10,6 @@ public class N26_KthMin {
 
     //输入n个整数，找出其中最小的K个数。
     public int findKthLargest(int[] nums, int k) {
-        shuffle(nums);
         int low = 0;
         int high = nums.length - 1;
         while (low < high) {
@@ -24,16 +23,6 @@ public class N26_KthMin {
             }
         }
         return nums[k];
-    }
-
-    private void shuffle(int[] nums) {
-        Random random = new Random();
-        for(int i=1; i<nums.length; i++) {
-            int rand = random.nextInt(i + 1);
-            int tmp = nums[i];
-            nums[i] = nums[rand];
-            nums[rand] = tmp;
-        }
     }
 
     private int partition(int[] nums, int low, int high) {

@@ -1,40 +1,44 @@
 package A1_JianzhiOffer.T4_Tree;
 
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @author ciciya
  * 1. 对于序列化：使用前序遍历，递归的将二叉树的值转化为字符，
- *    并且在每次二叉树的结点不为空时，在转化val所得的字符之后添加一个' ， '作为分割。
- *    对于空节点则以 '#' 代替。
+ *    并且在每次二叉树的结点不为空时，在转化val所得的字符之后添加一个','作为分割。
+ *    对于空节点则以 'null' 代替。
  * 2. 对于反序列化：按照前序顺序，递归的使用字符串中的字符创建一个二叉树
  */
 public class N58_GetSerialize {
 
 	//请实现两个函数，分别用来序列化和反序列化二叉树
-	public String Serialize(TreeNode root) {
-		StringBuffer sb = new StringBuffer();
+	public String serialize(TreeNode root) {
 		if(root == null){
-			sb.append("#,");
-			return sb.toString();
+			return "null,";
 		}
-		//前序遍历
-		sb.append(root.val + ",");
-		sb.append(Serialize(root.left));
-		sb.append(Serialize(root.right));
-		return sb.toString();
+		String res = root.val + ",";
+		res += serialize(root.left);
+		res += serialize(root.right);
+		return res;
 	}
 
-	private int index = -1;
-	public TreeNode Deserialize(String str) {
-		index++;
-		if(index >= str.length())
+	public TreeNode deserialize(String data) {
+		String[] dataArray = data.split(",");
+		List<String> dataList = new LinkedList<>(Arrays.asList(dataArray));
+		return helper(dataList);
+	}
+
+	public TreeNode helper(List<String> dataList) {
+		if (dataList.get(0).equals("null")) {
+			dataList.remove(0);
 			return null;
-		String[] strs = str.split(",");
-		TreeNode root = null;
-		if(!strs[index].equals("#")){
-			root = new TreeNode(Integer.valueOf(strs[index]));
-			root.left = Deserialize(str);
-			root.right = Deserialize(str);
 		}
+		TreeNode root = new TreeNode(Integer.valueOf(dataList.get(0)));
+		dataList.remove(0);
+		root.left = helper(dataList);
+		root.right = helper(dataList);
 		return root;
 	}
 }
