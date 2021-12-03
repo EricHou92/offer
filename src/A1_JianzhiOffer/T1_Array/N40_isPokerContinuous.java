@@ -6,7 +6,7 @@ package A1_JianzhiOffer.T1_Array;
 public class N40_isPokerContinuous {
 
     //抽出5张牌,看看是不是顺子
-    public boolean isContinuous(int[] nums) {
+    public boolean isStraight(int[] nums) {
        /*
         1. 除0外没有重复的数
         2. max - min < 5
@@ -16,20 +16,18 @@ public class N40_isPokerContinuous {
         int[] poker = new int[14];
         poker[0] = -5;
         int max = -1, min = 14;
-        for(int i=0; i<nums.length; i++){
-            poker[nums[i]]++;
-            if(poker[nums[i]] > 1)
+        for (int num : nums) {
+            poker[num]++;
+            if (poker[num] > 1)
                 return false;
-            if(nums[i] == 0)
+            if (num == 0)
                 continue;
-            if(nums[i] > max)
-                max = nums[i];
-            if(nums[i] < min)
-                min = nums[i];
+            if (num > max)
+                max = num;
+            if (num < min)
+                min = num;
         }
-        if(max-min < 5)
-            return true;
-        return false;
+        return max - min < 5;
     }
 
 }

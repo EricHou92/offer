@@ -6,7 +6,7 @@ package A1_JianzhiOffer.T1_Array;
 public class N32_InversePairs {
 
     //输入一个数组,求出这个数组中的逆序对的总数
-    public int InversePairs(int[] nums) {
+    public int reversePairs(int[] nums) {
         return mergeSort(nums, 0, nums.length-1);
     }
 
