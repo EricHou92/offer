@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 public class N2_1_KthLargest {
 
-    //  输入n个整数，找出其中最大的K个数。
+    //给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
     public int findKthLargest(int[] nums, int k) {
-        shuffle(nums);
         k = nums.length - k;
         int low = 0;
         int high = nums.length - 1;
@@ -24,17 +23,7 @@ public class N2_1_KthLargest {
         return nums[k];
     }
 
-    private void shuffle(int[] nums) {
-        Random random = new Random();
-        for(int i=1; i<nums.length; i++) {
-            int rand = random.nextInt(i + 1);
-            int tmp = nums[i];
-            nums[i] = nums[rand];
-            nums[rand] = tmp;
-        }
-    }
-
-    private int partition(int[] nums, int low, int high) {
+    public int partition(int[] nums, int low, int high) {
         int temp = nums[low]; //数组的第一个作为划分元素
         while(low < high){
             while(low<high && nums[high]>=temp){

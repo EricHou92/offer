@@ -9,8 +9,7 @@ public class N6_RemoveKDigits {
     public String removeKdigits(String num, int k) {
         //每次从头开始寻找一位删除：1、要么第二位是0，这样相当于至少删了两位.2、不然，找到第一个出现下降转折的位置 删除
         while(true){
-            int len = num.length();
-            if(len <= k || len == 0)
+            if(num.length() <= k)
                 return "0";
             if(k-- == 0)
                 return num;

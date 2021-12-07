@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class N2_2_TopKFrequent {
 
-    //前K个高频元素
+    //给你一个整数数组 nums 和一个整数 k ，请你返回其中出现频率前 k 高的元素
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         for(int n : nums){
@@ -24,12 +24,10 @@ public class N2_2_TopKFrequent {
             bucket[freq].add(n);
         }
         List<Integer> result = new LinkedList<>();
-        for(int i=bucket.length-1; i>0 && k>0; --i){
-            if(bucket[i]!=null){
-                List<Integer> list = bucket[i];
-                result.addAll(list);
-                k -= list.size();
-            }
+        for(int i = bucket.length - 1;i >= 0 && result.size() < k;i--){
+            if(bucket[i] == null)
+                continue;
+            result.addAll(bucket[i]);
         }
         return result;
     }
