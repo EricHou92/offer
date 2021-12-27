@@ -6,14 +6,14 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
 public class N1_MaxProductSub {
 
     //最大连续子集的乘积
-    public int maxProduct(int[] A) {
-        if (A == null || A.length == 0)
+    public int maxProduct(int[] nums) {
+        if (nums == null || nums.length == 0)
             return 0;
-        int max = A[0], min = A[0], result = A[0];
-        for (int i = 1; i < A.length; i++) {
+        int max = nums[0], min = nums[0], result = nums[0];
+        for (int i = 1; i < nums.length; i++) {
             int temp = max;
-            max = Math.max(Math.max(max * A[i], min * A[i]), A[i]);
-            min = Math.min(Math.min(temp * A[i], min * A[i]), A[i]);
+            max = Math.max(Math.max(max * nums[i], min * nums[i]), nums[i]);
+            min = Math.min(Math.min(temp * nums[i], min * nums[i]), nums[i]);
             if (max > result) {
                 result = max;
             }

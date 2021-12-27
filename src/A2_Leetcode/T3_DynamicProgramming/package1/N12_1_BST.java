@@ -5,17 +5,14 @@ package A2_Leetcode.T3_DynamicProgramming.package1;
  */
 public class N12_1_BST {
 
-    //给定n，存储值1 到 n的二分搜索树的数目
+    //给你一个整数n，求恰由n个节点组成且节点值从1到n互不相同的二叉搜索树有多少种
     public int numTrees(int n) {
-        if(n==0)
-            return 1;
         int[] dp = new int[n+1];
         dp[0] = 1;
-        for(int i=1; i<=n; i++){
-            for(int j=0; j<i; j++){
-                dp[i] += dp[j]*dp[i-1-j];   //当前数量 = 左右子树可行二叉树数量的乘积
-            }
-        }
+        dp[1] = 1;
+        for(int i = 2; i <= n; i++)
+            for(int j = 1; j <= i; j++)
+                dp[i] += dp[j-1] * dp[i-j];
         return dp[n];
     }
 }
