@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dde5a3-ebd3-4a01-9b41-5d1d84177aba" name="Default" comment="9.17  update">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_MaxProductSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_MaxProductSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_1_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_1_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N1_SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N1_SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N2_TreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N2_TreePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_1_PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_1_PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_2_PathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_2_PathSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_3_PathSumIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_3_PathSumIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_5_NumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_5_NumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N4_1_ArraytoAVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N4_1_ArraytoAVL.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.N4_test2">
+  <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
@@ -446,62 +450,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N27_ConSubMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A1_JianzhiOffer.T1_Array.N27_ConSubMax" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A1_JianzhiOffer.T1_Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N2_网格走法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A4_SeekJob.MeiTuan.N2_网格走法" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A4_SeekJob.MeiTuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N4_test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A4_SeekJob.MeiTuan.N4_test2" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A4_SeekJob.MeiTuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N4_test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A4_SeekJob.MeiTuan.N4_test3" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A4_SeekJob.MeiTuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -580,20 +528,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.N27_ConSubMax" />
-      <item itemvalue="Application.N2_网格走法" />
-      <item itemvalue="Application.N4_test2" />
-      <item itemvalue="Application.N4_test3" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.N4_test3" />
-        <item itemvalue="Application.N4_test2" />
-        <item itemvalue="Application.N2_网格走法" />
-        <item itemvalue="Application.N27_ConSubMax" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SFStoredExecutionPersistentComponent">
     <executions>

@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class N3_2_PathSumII {
 
+    //给你二叉树的根节点 root 和一个整数目标和 targetSum ，找出所有 从根节点到叶子节点路径总和等于给定目标和的路径
     public List<List<Integer>> pathSumII(TreeNode root, int sum){
         List<Integer> list  = new LinkedList<>();
         List<List<Integer>> allList  = new LinkedList<>();

@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class N2_TreePaths {
 
+    //给你一个二叉树的根节点 root，按任意顺序 ，返回所有从根节点到叶子节点的路径。
     public List<String> TreePaths(TreeNode root) {
         List<String> result = new ArrayList<>();
         if (root != null)

@@ -5,7 +5,7 @@ package A2_Leetcode.T5_DepthFirstSearch.package0;
  */
 public class N3_3_PathSumIII {
 
-    //The path does not need to start or end at the root or a leaf, but it must go downwards
+    //给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目
     public int pathSumIII(TreeNode root, int sum) {
         if (root == null)
             return 0;
@@ -15,7 +15,6 @@ public class N3_3_PathSumIII {
     private int helper(TreeNode root, int sum) {
         if (root == null)
             return 0;
-        return (root.val == sum ? 1 : 0)
-                + helper(root.left, sum - root.val) + helper(root.right, sum - root.val);
+        return (root.val == sum ? 1 : 0) + helper(root.left, sum - root.val) + helper(root.right, sum - root.val);
     }
 }

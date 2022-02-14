@@ -5,6 +5,7 @@ package A2_Leetcode.T5_DepthFirstSearch.package0;
  */
 public class N1_SameTree {
 
+    //给你两棵二叉树的根节点 p 和 q ，编写一个函数来检验这两棵树是否相同
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null)
             return true;
