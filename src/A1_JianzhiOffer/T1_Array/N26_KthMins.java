@@ -1,31 +1,25 @@
 package A1_JianzhiOffer.T1_Array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 /**
  * Created by ciciya on 2017/2/22.
  */
-public class N26_KthMin {
+public class N26_KthMins {
 
     //输入n个整数，找出其中最小的K个数。
-    public int findKthLargest(int[] nums, int k) {
+    public int[] getLeastNumbers(int[] nums, int k) {
         int low = 0;
         int high = nums.length - 1;
-        while (low < high) {
-            int mid = partition(nums, low, high);
-            if(mid < k) {
-                low = mid + 1;
-            } else if (mid > k) {
-                high = mid - 1;
-            } else {
-                break;
-            }
-        }
-        return nums[k];
+        if (k >= nums.length)
+            return nums;
+        return quickSort(nums, low, high, k);
     }
 
-    private int partition(int[] nums, int low, int high) {
+    private int[] quickSort(int[] nums, int low, int high, int k) {
+        int start = low, end = high;
         int temp = nums[low]; //数组的第一个作为划分元素
         while(low < high){
             while(low<high && nums[high]>=temp){
@@ -45,6 +39,11 @@ public class N26_KthMin {
                 nums[high] = temp1;
             }
         }
-        return low ;
+        if (low > k)
+            return quickSort(nums, start, low - 1, k);
+        if (low < k)
+            return quickSort(nums, low + 1, end, k);
+        return Arrays.copyOf(nums, k);
     }
+
 }

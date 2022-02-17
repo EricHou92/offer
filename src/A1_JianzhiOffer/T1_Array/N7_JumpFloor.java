@@ -5,7 +5,7 @@ package A1_JianzhiOffer.T1_Array;
  */
 public class N7_JumpFloor {
 
-    //输入一个整数n，请你输出斐波那契数列的第n项, f(n) = f(n-1) + f(n-2)
+    //一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法
     public int JumpFloor(int n) {
         if(n <= 2)
             return n;
@@ -13,7 +13,7 @@ public class N7_JumpFloor {
         int one = 1;  //1级台阶， 1
         int two = 2;  //2级台阶，1+1, 2
         for(int i=3; i<=n; i++){
-            result = (one + two) % 1000000007;
+            result = one + two;
             one = two;
             two = result;
         }

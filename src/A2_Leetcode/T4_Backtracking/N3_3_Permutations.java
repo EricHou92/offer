@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class N3_3_Permutations {
 
-    //无重复
+    //给定一个不含重复数字的数组nums ，返回其所有可能的全排列
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         backtrack(list, new ArrayList<>(), nums);

@@ -3,21 +3,21 @@ package A2_Leetcode.T12_LinkedList;
 /**
  * Created by ciciya on 2017/6/16.
  */
-public class N4_MergeSort {
+public class N4_SortList {
 
-    //对链表进行排序,时间O(nlogn)，空间O(n)
+    //给你链表的头结点head ，请将其按升序排列并返回排序后的链表 。
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null)
             return head;
-        ListNode pre = null, slow = head, fast = head;
+        ListNode slow = head, fast = head.next;
         while (fast != null && fast.next != null) {
-            pre = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
-        pre.next = null;
+        ListNode tmp = slow.next;
+        slow.next = null;
         ListNode l1 = sortList(head);
-        ListNode l2 = sortList(slow);
+        ListNode l2 = sortList(tmp);
         return merge(l1, l2);
     }
 

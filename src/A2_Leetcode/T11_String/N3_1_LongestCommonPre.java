@@ -3,7 +3,7 @@ package A2_Leetcode.T11_String;
 /**
  * Created by ciciya on 2017/6/13.
  */
-public class N3_LongestCommonPrefix {
+public class N3_1_LongestCommonPre {
 
     //编写一个函数来查找字符串数组中最长的公共前缀字符串。
     public String longestCommonPrefix(String[] strs) {

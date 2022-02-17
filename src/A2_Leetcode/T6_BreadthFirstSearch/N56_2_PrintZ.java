@@ -6,7 +6,8 @@ import java.util.List;
 
 public class N56_2_PrintZ {
 
-	public List<List<Integer>> ZLevelOrder(TreeNode root) {
+	//给你二叉树的根节点root，返回其节点值的锯齿形层序遍历 （即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）
+	public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 		List<List<Integer>> result = new ArrayList<>();
 		travel(root, result, 0);
 		return result;
@@ -19,11 +20,11 @@ public class N56_2_PrintZ {
 			List<Integer> list = new LinkedList<>();
 			result.add(list);
 		}
-		List<Integer> collection  = result.get(level);
+		List<Integer> list1  = result.get(level);
 		if(level % 2 == 0)
-			collection.add(root.val);
+			list1.add(root.val);
 		else
-			collection.add(0, root.val);
+			list1.add(0, root.val);
 		travel(root.left, result, level + 1);
 		travel(root.right, result, level + 1);
 	}

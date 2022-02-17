@@ -22,10 +22,9 @@ public class N3_2_PathSumII {
         list.add(root.val);
         if (root.left == null && root.right == null && sum == root.val) {
             allList.add(new LinkedList(list));
-            list.remove(list.size() - 1);  //don't forget to remove the last integer
+            list.remove(list.size() - 1);
             return;
-        }
-        else {
+        } else {
             pathSumII(root.left, sum - root.val, list, allList);
             pathSumII(root.right, sum - root.val, list, allList);
         }

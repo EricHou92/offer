@@ -5,13 +5,13 @@ import java.util.Stack;
 /**
  * Created by ciciya on 2017/5/9.
  */
-public class N3_ReversePolishNotation {
+public class N3_2_evalRPN {
 
-    //后缀表达式
-    public int evalRPN(String[] a) {
+    //后缀表达式 根据逆波兰表示法，求表达式的值。
+    public int evalRPN(String[] strings) {
         Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < a.length; i++) {
-            switch (a[i]) {
+        for (int i = 0; i < strings.length; i++) {
+            switch (strings[i]) {
                 case "+":
                     stack.push(stack.pop() + stack.pop());
                     break;
@@ -26,7 +26,7 @@ public class N3_ReversePolishNotation {
                     stack.push(n2 / n1);
                     break;
                 default:
-                    stack.push(Integer.parseInt(a[i]));
+                    stack.push(Integer.parseInt(strings[i]));
             }
         }
         return stack.pop();

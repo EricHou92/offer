@@ -7,9 +7,7 @@ import java.util.Stack;
  */
 public class N2_1_ValidParentheses {
 
-    /*栈最典型的应用就是验证配对情况，
-    作为有效的括号，有一个右括号就必定有一个左括号在前面，
-    所以我们可以将左括号都push进栈中，遇到右括号的时候再pop来消掉。*/
+    //给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串s，判断字符串是否有效
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for(int i = 0; i<s.length(); i++) {

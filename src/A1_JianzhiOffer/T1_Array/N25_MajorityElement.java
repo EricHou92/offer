@@ -3,7 +3,7 @@ package A1_JianzhiOffer.T1_Array;
 /**
  * Created by ciciya on 2017/2/21.
  */
-public class N25_ThanHalfNum {
+public class N25_MajorityElement {
 
     //数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字
     public int majorityElement(int[] nums) {

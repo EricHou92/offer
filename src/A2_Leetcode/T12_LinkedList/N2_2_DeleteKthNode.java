@@ -5,7 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N2_2_DeleteKthNode {
 
-    //给定一个链表，删除链表倒数第k个节点
+    //给你一个链表，删除链表的倒数第k个结点，并且返回链表的头结点
     public ListNode removeNthFromEnd(ListNode head, int k) {
         ListNode dummy = new ListNode(0);
         ListNode slow = dummy, fast = dummy;
@@ -13,7 +13,6 @@ public class N2_2_DeleteKthNode {
         for(int i=0; i<=k; i++) {
             fast = fast.next;
         }
-        //Move fast to the end, maintaining the gap
         while(fast != null) {
             slow = slow.next;
             fast = fast.next;

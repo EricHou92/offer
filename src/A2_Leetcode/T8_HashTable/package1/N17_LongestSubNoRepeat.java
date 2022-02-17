@@ -8,6 +8,7 @@ import java.util.Map;
  */
 public class N17_LongestSubNoRepeat {
 
+    //给定一个字符串s，请你找出其中不含有重复字符的最长子串的长度
     public int lengthOfLongestSubstring(String s) {
         if (s.length()==0)
             return 0;

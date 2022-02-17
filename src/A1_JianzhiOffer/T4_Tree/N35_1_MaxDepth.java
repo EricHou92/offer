@@ -1,7 +1,6 @@
 package A1_JianzhiOffer.T4_Tree;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class N35_1_MaxDepth {
 

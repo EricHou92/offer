@@ -15,7 +15,7 @@ public class N9_1_RotatedSorted {
             if (nums[mid] == target)
                 return mid;
             if (nums[high] <= nums[mid]){
-                if (target < nums[mid] && target >= nums[low])
+                if (target >= nums[low] && target < nums[mid])
                     high = mid - 1;
                 else
                     low = mid + 1;

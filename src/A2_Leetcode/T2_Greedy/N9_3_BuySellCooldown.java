@@ -1,9 +1,9 @@
-package A2_Leetcode.T3_DynamicProgramming.package0;
+package A2_Leetcode.T2_Greedy;
 
 /**
  * Created by ciciya on 2017/3/30.
  */
-public class N4_3_BuySellCooldown {
+public class N9_3_BuySellCooldown {
 
     //出售股票后，您不能在第二天购买股票（即冷却1天）
     public int maxProfit(int[] prices) {

@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class N3_4_PermutationsII {
 
-    //有重复
+    //给定一个可包含重复数字的序列nums ，按任意顺序返回所有不重复的全排列
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);

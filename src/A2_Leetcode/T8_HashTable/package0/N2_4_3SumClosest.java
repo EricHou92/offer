@@ -7,9 +7,9 @@ import java.util.Arrays;
  */
 public class N2_4_3SumClosest {
 
-    //两指针
+    //给你一个整数数组nums和一个目标值target。请你从 nums 中选出三个整数，使它们的和与target最接近。返回这三个数的和
     public int threeSumClosest(int[] num, int target) {
-        int result = num[0] + num[1] + num[num.length - 1];
+        int result = num[0] + num[1] + num[2];
         Arrays.sort(num);
         for (int i = 0; i < num.length - 2; i++) {
             int low = i + 1;

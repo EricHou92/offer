@@ -9,12 +9,12 @@ import java.util.List;
  */
 public class N2_3_3Sum {
 
-    //前后指针
+    //给你一个包含n个整数的数组nums，判断nums中是否存在三个元素a，b，c，使得a+b+c=0？请你找出所有和为0且不重复的三元组
     public List<List<Integer>> threeSum(int[] num) {
         Arrays.sort(num);
         List<List<Integer>> result = new LinkedList<>();
         for (int i = 0; i < num.length-2; i++) {
-            if (i == 0 || (i > 0 && num[i] != num[i-1])) {
+            if (i == 0 || num[i] != num[i - 1]) {
                 int low = i+1;
                 int high = num.length-1;
                 int sum = 0 - num[i];

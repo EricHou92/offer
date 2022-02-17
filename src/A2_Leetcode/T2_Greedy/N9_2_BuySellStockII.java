@@ -1,9 +1,9 @@
-package A2_Leetcode.T3_DynamicProgramming.package0;
+package A2_Leetcode.T2_Greedy;
 
 /**
  * Created by ciciya on 2017/4/5.
  */
-public class N4_2_BuySellStockII {
+public class N9_2_BuySellStockII {
 
     //可以多次交易, 找到最大的利润
     public int maxProfit(int[] prices) {

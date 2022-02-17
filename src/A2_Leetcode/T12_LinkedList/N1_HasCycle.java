@@ -5,7 +5,7 @@ package A2_Leetcode.T12_LinkedList;
  */
 public class N1_HasCycle {
 
-    //给定一个链表，确定它是否有环
+    //给你一个链表的头节点head，判断链表中是否有环
     public boolean hasCycle(ListNode head) {
         if(head==null)
             return false;
