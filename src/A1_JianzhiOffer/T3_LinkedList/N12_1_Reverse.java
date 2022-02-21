@@ -9,10 +9,10 @@ public class N12_1_Reverse {
     public ListNode reverseList(ListNode head) {
         ListNode newHead = null;
         while (head != null) {
-            ListNode next = head.next; //暂存原来的head.next
+            ListNode temp = head.next; //暂存原来的head.next
             head.next = newHead; //反转体现在head.next == 上一结点
             newHead = head; //头结点 == 当前结点
-            head = next; //下一循环
+            head = temp; //下一循环
         }
         return newHead;
     }

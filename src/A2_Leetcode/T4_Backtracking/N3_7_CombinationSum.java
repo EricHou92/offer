@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class N3_7_CombinationSum {
 
+    //给定无重复集合candidates 和一个目标数target ，找出candidates中所有可以使数字和为 target 的组合。 每个数字在每个组合中只能使用多次
     public List<List<Integer>> combinationSum(int[] nums, int target) {
         List<List<Integer>> list = new ArrayList<>();
         backtrack(list, new ArrayList<>(), nums, target, 0);

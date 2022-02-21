@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class N12_2_BST2 {
 
-    //给定n，存储值1 到 n的所有二分搜索树
+    //给定n，存储值1到n的所有二叉搜索树
     public List<TreeNode> generateTrees(int n){
         return genTrees(1, n);
     }

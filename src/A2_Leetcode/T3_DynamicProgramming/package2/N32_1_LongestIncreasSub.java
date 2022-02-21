@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by ciciya on 2017/3/31.
  */
-public class N32_LongestIncreasSub {
+public class N32_1_LongestIncreasSub {
 
     //O(nlogn) 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度
     public int lengthOfLIS(int[] nums) {

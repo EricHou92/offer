@@ -5,7 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package0;
  */
 public class N1_MaxProductSub {
 
-    //最大连续子集的乘积
+    //给你一个整数数组nums ，请你找出数组中乘积最大的非空连续子数组，子数组是数组的连续子序列
     public int maxProduct(int[] nums) {
         if (nums == null || nums.length == 0)
             return 0;
@@ -14,9 +14,7 @@ public class N1_MaxProductSub {
             int temp = max;
             max = Math.max(Math.max(max * nums[i], min * nums[i]), nums[i]);
             min = Math.min(Math.min(temp * nums[i], min * nums[i]), nums[i]);
-            if (max > result) {
-                result = max;
-            }
+            result = Math.max(result, max);
         }
         return result;
     }

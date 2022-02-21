@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class N3_8_CombinationSumII {
 
+    //给定有重复集合candidates和一个目标数target ，找出candidates 中所有可以使数字和为 target 的组合。 每个数字在每个组合中只能使用一次
     public List<List<Integer>> combinationSum2(int[] nums, int target) {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);

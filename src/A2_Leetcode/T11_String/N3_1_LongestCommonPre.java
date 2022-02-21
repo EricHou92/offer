@@ -5,7 +5,7 @@ package A2_Leetcode.T11_String;
  */
 public class N3_1_LongestCommonPre {
 
-    //编写一个函数来查找字符串数组中最长的公共前缀字符串。
+    //编写一个函数来查找字符串数组中的最长公共前缀。如果不存在公共前缀，返回""
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0)
             return "";

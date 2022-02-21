@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class N6_SubSum {
 
-    //给定整数数组和整数k，您需要找到总和等于k的连续子阵列的总数。
+    //给你一个整数数组nums 和一个整数k ，请你统计并返回该数组中和为 k 的连续子数组的个数。
     public int subarraySum(int[] nums, int k) {
         int sum = 0;
         int result = 0;

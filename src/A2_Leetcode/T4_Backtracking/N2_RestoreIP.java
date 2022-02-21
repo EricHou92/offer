@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class N2_RestoreIP {
 
+    //给定一个只包含数字的字符串s ，用以表示一个 IP 地址，返回所有可能的有效 IP 地址，这些地址可以通过在 s 中插入 '.' 来形成
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<>();
         int len = s.length();

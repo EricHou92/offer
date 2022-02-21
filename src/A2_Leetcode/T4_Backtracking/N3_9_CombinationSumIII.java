@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class N3_9_CombinationSumIII {
 
+    //找出所有相加之和为n的 k 个数的组合。组合中只允许含有 1 - 9 的正整数，并且每种组合中不存在重复的数字
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> list = new ArrayList<>();
         backtrack(list, new ArrayList<>(), k, n, 1);

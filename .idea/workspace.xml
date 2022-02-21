@@ -2,56 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dde5a3-ebd3-4a01-9b41-5d1d84177aba" name="Default" comment="9.17  update">
-      <change afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N26_KthMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N17_MaxWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N2_2_ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N3_2_LongestCommonSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N3_3_LongestCommonSubII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N11_MergeKLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N3_2_isPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N3_3_ReverKGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N16_lowestComAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N3_1_calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/N1_topKFreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T6_Other/N64_GetMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N18_firstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N14_longestFDupSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_2_longestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N17_isBST_isComplete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N16_SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N16_SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N25_ThanHalfNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N25_MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N26_KthMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N26_KthMins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N27_ConSubMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N7_JumpFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N7_JumpFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N52_EntryCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N52_EntryCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N35_1_MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N35_1_MaxDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N35_3_IsBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N35_3_IsBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N4_reConstructTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N4_reConstructTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N9_1_RotatedSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N9_1_RotatedSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N3_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N3_1_LongestCommonPre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N7_1_ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N7_1_isPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N7_3_LPSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N7_3_LPSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N1_HasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N1_HasCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N2_2_DeleteKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N2_2_DeleteKthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N3_2_Palindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N4_MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N4_SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N7_AddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N7_AddNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_1_BuySellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_1_BuySellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_2_BuySellStockII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_2_BuySellStockII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N4_3_BuySellCooldown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_3_BuySellCooldown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_LongestIncreasSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_LongestIncreasSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_3_Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_3_Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_4_PermutationsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_4_PermutationsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_2_PathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_2_PathSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N13_1_IslandNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N13_1_IslandNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_1_Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_1_Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_2_PrintZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_2_PrintZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_3_PrintBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_3_PrintBottom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_4_MaxInEachRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T6_BreadthFirstSearch/N56_4_MaxInEachRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N2_1_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N2_1_ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N3_ReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N3_2_evalRPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_1_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_2_TwoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_2_TwoSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_3_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_3_3Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_4_3SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package0/N2_4_3SumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package1/N16_LongestHarmoniousSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package1/N16_LongestHarmoniousSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package1/N17_LongestSubNoRepeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T8_HashTable/package1/N17_LongestSubNoRepeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N1_SearchMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N1_SearchMatrixII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N32_InversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N32_InversePairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N45_StrToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T2_String/N45_StrToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N12_1_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N12_1_Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N14_HasSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N14_HasSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T5_StackQueue/N61_maxInWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T5_StackQueue/N61_maxInWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N6_SubSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N6_SubSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N3_1_LongestCommonPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T11_String/N3_1_LongestCommonPre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N5_Reorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N5_Reorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N6_Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T12_LinkedList/N6_Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_MaxProductSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package0/N1_MaxProductSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_2_BST2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package1/N12_2_BST2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_LongestIncreasSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N32_1_LongestIncreasSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N2_RestoreIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N2_RestoreIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_10_Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_10_Combination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_7_CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_7_CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_8_CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_8_CombinationSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_9_CombinationSumIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_9_CombinationSumIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_1_PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_1_PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_4_MaxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N3_4_MaxPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N2_2_GenParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N2_2_GenParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N15_Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N15_Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A3_SortSearch/M1_BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A3_SortSearch/M1_BinarySearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,11 +149,11 @@
       <recent name="leetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A2_Leetcode.T3_DynamicProgramming.package2" />
+      <recent name="A2_Leetcode.T5_DepthFirstSearch.package1" />
       <recent name="A2_Leetcode.T11_String" />
       <recent name="A2_Leetcode.T7_Stack" />
       <recent name="A2_Leetcode.T12_LinkedList" />
-      <recent name="A2_Leetcode.T5_DepthFirstSearch" />
-      <recent name="A1_JianzhiOffer.T1_Array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ciciya\IdeaProjects\offer\src\encrypt" />

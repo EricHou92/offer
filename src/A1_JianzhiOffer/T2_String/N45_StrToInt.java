@@ -6,7 +6,7 @@ package A1_JianzhiOffer.T2_String;
 
 public class N45_StrToInt {
 
-    //将一个字符串转换成一个整数, 数值为0或者字符串不是一个合法的数值,则返回0
+    //实现把字符串转换成整数这个功能,不能使用 atoi 或者其他类似的库函数，在任何情况下，若函数不能进行有效的转换时，请返回0
     public int strToInt(String str) {
         str = str.trim();
         if (str.length() == 0)
@@ -27,7 +27,7 @@ public class N45_StrToInt {
             sum = sum * 10 + str.charAt(i) - '0';
             if (sign == 1 && sum > Integer.MAX_VALUE)
                 return Integer.MAX_VALUE;
-            if (sign == -1 && (-1) * sum < Integer.MIN_VALUE)
+            if (sign == -1 && sum > Integer.MAX_VALUE)
                 return Integer.MIN_VALUE;
         }
         return (int) sum * sign;

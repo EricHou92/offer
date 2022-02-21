@@ -19,6 +19,7 @@ public class N32_InversePairs {
             while(j <= high && nums[i] > nums[j])
                 j++;
             result += j-(mid+1);
+            result %= 1000000007;
         }
         //Arrays.sort(nums, low, high+1);  //相当于merge
         merge(nums, low, mid, high);
