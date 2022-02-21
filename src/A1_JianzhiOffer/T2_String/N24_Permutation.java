@@ -19,9 +19,8 @@ public class N24_Permutation {
     private void backtrack(List<String> list, List<Character> tempList, char[] chars, boolean[] used){
         if(tempList.size() == chars.length){
             String string = "";
-            for(Character i : new ArrayList<>(tempList)){
+            for(Character i : new ArrayList<>(tempList))
                 string += i;
-            }
             list.add(string);
         } else{
             for(int i = 0; i < chars.length; i++){

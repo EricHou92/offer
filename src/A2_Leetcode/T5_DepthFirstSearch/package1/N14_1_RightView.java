@@ -8,8 +8,7 @@ import java.util.List;
  */
 public class N14_1_RightView {
 
-  /*  1.Each depth of the tree only select one node.
-    2.View depth is current size of result list.*/
+    //给定一个二叉树的根节点root，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值，根->右->左
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         rightView(root, 0, result);

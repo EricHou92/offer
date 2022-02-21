@@ -6,6 +6,11 @@ package A3_SortSearch;
 public class N2_QuickSort{
 
     //快排，分治算法
+    public int[] MySort (int[] arr) {
+        quickSort(arr , 0 , arr.length-1);
+        return arr;
+    }
+
     public void quickSort(int[] nums, int low, int high){
         if(low < high){
             int mid = partition(nums, low, high); //将numbers数组进行一分为二

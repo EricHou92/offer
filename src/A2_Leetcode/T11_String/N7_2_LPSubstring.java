@@ -5,7 +5,7 @@ package A2_Leetcode.T11_String;
  */
 public class N7_2_LPSubstring {
 
-    //给定一个字符串s，找到s中最长的回文子字符串。
+    //给定一个字符串s，找到s中最长的回文子串
     public String longestPalindrome(String s) {
         String result = "";
         int currLength = 0;

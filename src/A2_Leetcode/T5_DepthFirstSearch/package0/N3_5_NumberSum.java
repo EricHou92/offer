@@ -12,11 +12,11 @@ public class N3_5_NumberSum {
         return helper(root, 0);
     }
 
-    public int helper(TreeNode root, int s){
+    public int helper(TreeNode root, int sum){
         if (root == null)
             return 0;
         if (root.right == null && root.left == null)
-            return s*10 + root.val;
-        return helper(root.left, s*10 + root.val) + helper(root.right, s*10 + root.val);
+            return sum*10 + root.val;
+        return helper(root.left, sum*10 + root.val) + helper(root.right, sum*10 + root.val);
     }
 }

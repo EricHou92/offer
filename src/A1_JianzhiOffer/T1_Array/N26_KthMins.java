@@ -1,8 +1,6 @@
 package A1_JianzhiOffer.T1_Array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Created by ciciya on 2017/2/22.
