@@ -5,7 +5,7 @@ package A2_Leetcode.T2_Greedy;
  */
 public class N9_1_BuySellStock {
 
-    //最多一次交易, 找到最大利润。
+    //最多一次交易, 找到最大利润
     public int maxProfit(int[] prices) {
         if(prices.length == 0)
             return 0;

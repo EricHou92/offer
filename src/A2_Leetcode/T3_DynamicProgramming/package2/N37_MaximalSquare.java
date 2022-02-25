@@ -5,7 +5,7 @@ package A2_Leetcode.T3_DynamicProgramming.package2;
  */
 public class N37_MaximalSquare {
 
-    //给定填充0和1的二维二进制矩阵，找到只有1的最大平方并返回其面积。
+    //在一个由 '0' 和 '1' 组成的二维矩阵内，找到只包含 '1' 的最大正方形，并返回其面积
     public int maximalSquare(char[][] matrix) {
         if(matrix.length == 0)
             return 0;

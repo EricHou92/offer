@@ -4,13 +4,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author ciciya
- * 1. 对于序列化：使用前序遍历，递归的将二叉树的值转化为字符，
- *    并且在每次二叉树的结点不为空时，在转化val所得的字符之后添加一个','作为分割。
- *    对于空节点则以 'null' 代替。
- * 2. 对于反序列化：按照前序顺序，递归的使用字符串中的字符创建一个二叉树
- */
 public class N58_GetSerialize {
 
 	//请实现两个函数，分别用来序列化和反序列化二叉树
@@ -25,20 +18,20 @@ public class N58_GetSerialize {
 	}
 
 	public TreeNode deserialize(String data) {
-		String[] dataArray = data.split(",");
-		List<String> dataList = new LinkedList<>(Arrays.asList(dataArray));
-		return helper(dataList);
+		String[] strings = data.split(",");
+		List<String> list = new LinkedList<>(Arrays.asList(strings));
+		return helper(list);
 	}
 
-	public TreeNode helper(List<String> dataList) {
-		if (dataList.get(0).equals("null")) {
-			dataList.remove(0);
+	public TreeNode helper(List<String> list) {
+		if (list.get(0).equals("null")) {
+			list.remove(0);
 			return null;
 		}
-		TreeNode root = new TreeNode(Integer.valueOf(dataList.get(0)));
-		dataList.remove(0);
-		root.left = helper(dataList);
-		root.right = helper(dataList);
+		TreeNode root = new TreeNode(Integer.parseInt(list.get(0)));
+		list.remove(0);
+		root.left = helper(list);
+		root.right = helper(list);
 		return root;
 	}
 }

@@ -8,11 +8,7 @@ import java.util.List;
  */
 public class N3_1_Subsets {
 
-    public static void main(String[] args){
-        int[] nums = {1,3,2};
-        new N3_1_Subsets().subsets(nums);
-    }
-
+    //给你一个整数数组nums，数组中的元素互不相同，返回该数组所有可能的子集
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         backtrack(list, new ArrayList<>(), nums, 0);

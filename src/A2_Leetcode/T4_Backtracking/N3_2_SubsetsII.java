@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class N3_2_SubsetsII {
 
+    //给你一个整数数组nums ，其中可能包含重复元素，请你返回该数组所有可能的子集
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);

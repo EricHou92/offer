@@ -23,7 +23,7 @@ public class P2_TreeInOrder {
             if (root != null) {
                 stack.push(root);
                 root = root.left;
-            } else { //pNode == null && !stack.isEmpty()
+            } else {
                 TreeNode node = stack.pop();
                 System.out.print(node.val+"  ");
                 root = node.right;
