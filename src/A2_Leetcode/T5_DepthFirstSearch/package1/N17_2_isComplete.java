@@ -5,23 +5,7 @@ import java.util.LinkedList;
 /**
  * Created by ciciya on 2017/5/4.
  */
-public class N17_isBST_isComplete {
-
-    public boolean[] judgeIt (TreeNode root) {
-        boolean[] res = new boolean[2];
-        res[0] = isSerachTree(root, Long.MIN_VALUE, Long.MAX_VALUE);
-        res[1] = isCompleteTree(root);
-        return res;
-    }
-
-    //给你一个二叉树的根节点 root ，判断其是否是一个有效的二叉搜索树
-    public boolean isSerachTree(TreeNode root, long left, long right){
-        if(root == null)
-            return true;
-        if(root.val <= left || root.val >= right)
-            return false;
-        return isSerachTree(root.left, left, root.val) && isSerachTree(root.right, root.val, right);
-    }
+public class N17_2_isComplete {
 
     //给定一个二叉树的root ，确定它是否是一个完全二叉树
     public boolean isCompleteTree(TreeNode root){

@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dde5a3-ebd3-4a01-9b41-5d1d84177aba" name="Default" comment="9.17  update">
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N19_peakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T1_DivideAndConquer/N4_findMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N2_AssignCandy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_3_BuySellStockIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N38_transNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N39_isMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N40_message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N41_1_minDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N41_2_minDistanceII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N11_Nqueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N18_mergeTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N19_longestIncresePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N20_recoverTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N21_countNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N19_tralingZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N20_gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N17_2_isComplete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N10_reOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T1_Array/N10_reOrderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N41_LastRemaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T3_LinkedList/N41_LastRemaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N15_1_Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N15_1_Mirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N58_GetSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N58_GetSerialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N59_GetKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1_JianzhiOffer/T4_Tree/N59_GetKthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N13_RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N13_RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N5_RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T10_Array/N5_RotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_1_BuySellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_1_BuySellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_3_BuySellCooldown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T2_Greedy/N9_4_BuySellCooldown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/Pack01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/Pack01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N28_CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N28_CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N37_MaximalSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T3_DynamicProgramming/package2/N37_MaximalSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_1_Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_1_Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_2_SubsetsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T4_Backtracking/N3_2_SubsetsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N4_1_ArraytoAVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N4_1_ArraytoBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N4_2_ListToAVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package0/N4_2_ListToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N13_1_IslandNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N13_1_numIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N2_3_LongestParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T7_Stack/N2_3_LongestParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N4_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T9_Math/N4_PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A3_SortSearch/P2_TreeInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A3_SortSearch/P2_TreeInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N17_isBST_isComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2_Leetcode/T5_DepthFirstSearch/package1/N17_1_isBST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,9 +123,9 @@
       <recent name="leetcode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A2_Leetcode.T5_DepthFirstSearch.package1" />
       <recent name="A2_Leetcode.T3_DynamicProgramming.package2" />
       <recent name="A2_Leetcode.T2_Greedy" />
-      <recent name="A2_Leetcode.T5_DepthFirstSearch.package1" />
       <recent name="A2_Leetcode.T11_String" />
       <recent name="A2_Leetcode.T7_Stack" />
     </key>
